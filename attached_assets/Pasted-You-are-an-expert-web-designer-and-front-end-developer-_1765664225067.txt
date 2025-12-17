@@ -1,0 +1,60 @@
+You are an expert web designer and front-end developer. Create a flawless, single-page website for 'Aurora Dream,' a high-end sleep products studio in Ottawa, Canada. Treat this as a final, production-ready deliverable for a client.
+
+1. CORE DESIGN PHILOSOPHY & USER EXPERIENCE:
+
+Primary Goal: Convey trust, comfort, and expert guidance. The user should feel calm and informed, never pressured.
+
+Art Direction: 'Minimalist Nordic spa' meets 'modern tech blog.' Think of the clean, structured layouts of Apple News or a high-end design publication, but with the warm, inviting palette of a luxury retreat. The space is as important as the content.
+
+Interaction Philosophy: Smooth, deliberate, and gentle. All transitions (hovers, scrolls) should be subtle and calming.
+
+2. PRECISE VISUAL LANGUAGE & BRAND ASSETS:
+
+Typography: Use a clear, highly readable sans-serif font stack (e.g., system fonts with 'Inter' or 'SF Pro' as ideal). Use a clear hierarchy: Hero headline is boldest, section titles are strong, body text is soft and spacious (line-height >= 1.6).
+
+Imagery Style: All placeholder images must evoke 'calm Canadian comfort.' Think: soft textiles in neutral colors, misty forest backgrounds, subtle northern lights hues, cozy but elegant bedroom shots. Absolutely no stock photos of people grinning or flashy graphics.
+
+Iconography: Use simple, line-based icons if needed. Prefer no icons over bad icons.
+
+3. TECHNICAL & STYLING SPECIFICATIONS:
+
+A. Exact Color Application:
+
+#0A3A57 (Navy Blue): Primary background. Use for the footer, fixed navigation bar, and any major containers. Provides depth and calm.
+
+#F3E8D0 (Soft Sand): Primary text color. Use for all body text and headings on dark backgrounds. This is your 'warm white.'
+
+#3A7BF7 (Aurora Blue): Primary action color. Use for primary CTA buttons ('Book Your Private Fitting'), key headlines, and interactive links on hover.
+
+Aurora Gradient: Create a subtle, horizontal gradient background for the Hero Section and perhaps section titles. Blend #19B9C4 (Green) -> #3A7BF7 (Blue) -> #A861D5 (Purple). It should be ethereal, not overwhelming.
+
+#FFEBB5 (Star Glow): Micro-accent only. Use for the faint glow on a star icon, or a very subtle text-shadow on the most important word.
+
+B. Layout & Component Specs:
+
+Fixed Navbar: Fixed to top on scroll. Background: #0A3A57. Text: #F3E8D0. Logo placeholder on left: '[Aurora Dream]'. Menu items on right: Home | Products | About | Reviews | Contact. On mobile, a clean hamburger menu.
+
+Hero Section: Full-viewport height on desktop. Center-aligned text. Headline: 'Premium Sleep Within Reach' in a large, bold font. Sub-headline: 'Ottawa’s Private Sleep Studio' in a smaller, regular weight. Single, prominent button: 'Book Your Private Fitting' with background #3A7BF7 and text #F3E8D0, rounded corners, generous padding.
+
+Products Section: Title: 'Our Sleep Products'. Grid of 3 items on desktop, 1 on mobile. Each card has: a spacious image container, category title (e.g., 'Premium Pillows'), 2 lines of descriptive text. Cards have a slight shadow on hover and a soft scale transition.
+
+About Section: Title: 'Why Aurora Dream'. Two-column layout on desktop (text on left, a serene image on right). Text should tell a concise story: independent expertise, Canadian-made quality, personalized service.
+
+Reviews Section: Title: 'Trusted by Ottawa Sleepers'. Three testimonial cards in a row on desktop, stacked on mobile. Each card has a quote, a name, and a simple 5-star rating visual (use ★ character).
+
+Contact Section: Title: 'Visit Our Studio'. Clean, centered layout. Key info: 'Nepean, Ottawa — By Appointment Only', 'hello@auroradream.ca', '(555) 123-4567'. A subtle call to action: 'Reach out to schedule your private fitting.'
+
+Footer: Simple. Background #0A3A57. Centered text: '© [Current Year] Aurora Dream. Ottawa’s Private Sleep Studio.'
+
+4. TECHNICAL EXCELLENCE REQUIREMENTS:
+
+Performance: Write efficient, modern CSS using Flexbox/Grid. Minimize and bundle any JavaScript.
+
+Responsiveness: Flawless on mobile, tablet, and desktop. Use CSS media queries.
+
+Accessibility: Use semantic HTML5 tags (<header>, <section>, <article>). Ensure high color contrast. All interactive elements must be keyboard-navigable.
+
+Code Quality: Generate clean, well-commented, and indented code in separate index.html, style.css, and script.js files. The JavaScript should only handle the mobile menu toggle and smooth scrolling for navigation links.
+
+5. FINAL INSTRUCTION:
+Do not ask clarifying questions. Synthesize all instructions above into a single, cohesive, and visually stunning website. The output should be the complete code. Begin."

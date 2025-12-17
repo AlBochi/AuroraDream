@@ -1,0 +1,68 @@
+Please implement the following updates and new features for the Aurora Dream website. Treat this as a final production task.
+
+1. Navigation Bar & Logo:
+
+The logo in the top-left corner is too small. Increase its size significantly so it is clearly visible and prominent as the main brand identifier.
+
+Keep the navigation links: About | Our Products | Book an Appointment | Contact Us.
+
+2. Products Section & Individual Mattress Pages:
+
+Main Products Page: Under the 'Our Products' section, add a new category called 'Mattresses' alongside Pillows, Protectors, etc. This will be a gallery/list view.
+
+Navigation: When a user clicks 'Our Products' in the navbar, they should see this main product categories page.
+
+Individual Product Pages: Create three separate, individual pages for our mattresses: AMBER, BAILEY, and CARLISLE.
+
+Structure for Each Page: Use a clean, consistent template. The page should have:
+
+The mattress name as the main headline (e.g., "AMBER").
+
+A sub-headline with its type and profile (e.g., "Bunk Mattress · 4" Profile").
+
+A placeholder for the mattress picture (we will upload: amber.jpg, bailey.jpg, carlisle.jpg). Design a clear image container.
+
+The descriptive text I will provide for each.
+
+Two consistent badge/icons placed near the description:
+
+A Canadian Maple Leaf icon with the text "Canadian Made".
+
+A Badge/Warranty icon with the text "1-5 Year Warranty".
+
+Linking: From the main 'Mattresses' list on the 'Our Products' page, each mattress name should be a clickable link that opens its dedicated page.
+
+3. Content for the Three Mattress Pages:
+
+Page 1 - AMBER:
+
+Headline: AMBER
+
+Sub-headline: Bunk Mattress · 4" Profile
+
+Description: Amber is crafted with EcoTex™ soy-based microfiber foam for responsive comfort and dependable support. Resists body impressions while keeping its shape for long-lasting comfort.
+
+Page 2 - BAILEY:
+
+Headline: BAILEY
+
+Sub-headline: Bunk Mattress · 5" Profile
+
+Description: Bailey features EcoTex™ soy-based luxury foam with an extra-deep 5" profile for superior comfort and support. Maintains its shape and delivers long-lasting relaxation.
+
+Page 3 - CARLISLE:
+
+Headline: CARLISLE
+
+Sub-headline: Foam Mattress · 6" Profile
+
+Description: Carlisle combines EcoTex™ soy-based foam with custom-milled fabrics and premium covers for lasting durability and luxurious comfort. Dual quilted layers offer cradling support, pressure relief, and long-lasting performance.
+
+4. Design Consistency:
+
+All new pages (main Products page, individual mattress pages) must strictly follow the established visual language: the color palette (#0A3A57, #F3E8D0, #3A7BF7, etc.), typography, spacing, and minimalist 'Nordic spa' aesthetic.
+
+Ensure the site remains fully responsive on all devices.
+
+Deliverable:
+Please proceed to build this updated functionality. Generate all necessary HTML files (products.html, mattress-amber.html, mattress-bailey.html, mattress-carlisle.html) with the correct linking structure, CSS, and minimal JavaScript for navigation. I will later replace the image placeholders with the actual files (amber.jpg, bailey.jpg, carlisle.jpg).

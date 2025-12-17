@@ -1,0 +1,35 @@
+I am sending you our company logo. Replace the text '[Aurora Dream]' at the top left of the navigation bar with this logo. Ensure it is sized appropriately and links to the homepage (the top of the page).
+
+Revise the entire page design and structure with these new directives:
+
+1. Navigation Bar (Updated):
+
+Left: Integrated Logo.
+
+Right: About | Our Products | Book an Appointment | Contact Us
+
+Style: Clean, minimalist, fixed to the top. Background should be semi-transparent to let the moving sky theme show through slightly.
+
+2. Core Creative Theme - 'Living Aurora Sky':
+
+The primary background theme for the entire page should be a stylized, animated sky of the aurora borealis.
+
+Visual: Create a deep blue (#0A3A57) base sky with soft, slow-moving gradients in our brand colors (#19B9C4, #3A7BF7, #A861D5). The motion should be subtle, like gentle waves or flowing light—calm and mesmerizing, not distracting.
+
+Implementation: This likely requires a procedurally generated background using HTML Canvas or a lightweight JavaScript library. Prioritize performance; the motion must be smooth but not resource-heavy.
+
+3. Content Presentation Over the Sky:
+
+All text, cards, and sections must sit clearly on top of this animated sky. Use semi-transparent backgrounds or very subtle backdrops for text sections to ensure perfect readability (#F3E8D0 text color is mandatory).
+
+The 'Book Your Private Fitting' button must pop strongly against the motion.
+
+4. Design Philosophy:
+
+Less is more. With this dynamic background, every other element must be even cleaner, more minimalist, and use more negative space. The moving sky is the main artwork; the interface should frame it.
+
+Goal: The user should feel like they are looking through a window into a calm, Canadian night sky while browsing a premium sleep studio's offerings.
+
+Deliverable:
+First, show me a design prototype of this living aurora sky theme with the updated navigation and hero section. I must approve the motion aesthetic and readability before you build the full site."
+
