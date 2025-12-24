@@ -1,18 +1,5 @@
 import { MapPin, Mail, Phone, Facebook, Instagram } from "lucide-react";
 
-function MapleLeaf({ className }: { className?: string }) {
-  return (
-    <svg
-      viewBox="0 0 32 32"
-      className={className}
-      fill="currentColor"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path d="M16 2l2 6h3l3-3v4l4 2-3 2 1 4 5 1-3 3 1 3h-5l-1 3h-2l-2-2-3 2v3h-2v-3l-3-2-2 2h-2l-1-3H2l1-3-3-3 5-1 1-4-3-2 4-2V5l3 3h3l2-6z" />
-    </svg>
-  );
-}
-
 export default function FooterAurora() {
   const currentYear = new Date().getFullYear();
 
@@ -36,6 +23,10 @@ export default function FooterAurora() {
     window.open("https://www.instagram.com/carlasleepco/", "_blank");
   };
 
+  const handleBookAppointment = () => {
+    window.open("https://calendly.com/albochi-auroradream/30min?month=2025-12", "_blank");
+  };
+
   return (
     <footer
       className="relative py-16 border-t border-[#F3E8D0]/10"
@@ -43,10 +34,11 @@ export default function FooterAurora() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+          {/* Brand Column */}
           <div>
             <h3 className="text-xl font-medium text-[#F3E8D0] mb-4">Aurora Dream</h3>
             <p className="text-[#F3E8D0]/60 text-base leading-relaxed">
-              Ottawa's Private Sleep Studio. Premium Canadian-made mattresses and sleep products.
+              Ottawa's Sleep Boutique. Premium Canadian-made mattresses and sleep products.
             </p>
             <div className="flex items-center gap-4 mt-6">
               <button
@@ -66,6 +58,7 @@ export default function FooterAurora() {
             </div>
           </div>
           
+          {/* Contact Column */}
           <div>
             <h3 className="text-xl font-medium text-[#F3E8D0] mb-4">Contact Us</h3>
             <div className="space-y-3">
@@ -93,24 +86,32 @@ export default function FooterAurora() {
             </div>
           </div>
           
+          {/* Visit Us Column */}
           <div>
             <h3 className="text-xl font-medium text-[#F3E8D0] mb-4">Visit Us</h3>
             <p className="text-[#F3E8D0]/60 text-base leading-relaxed">
-              Schedule a private fitting to experience our collection firsthand. Free parking available.
+              Book your appointment to experience our collection firsthand. Free parking available.
             </p>
+            <button
+              onClick={handleBookAppointment}
+              className="mt-4 bg-[#3A7BF7] hover:bg-[#3A7BF7]/90 text-[#F3E8D0] px-6 py-3 text-sm font-medium rounded-md shadow-lg shadow-[#3A7BF7]/30 transition-all duration-300 border border-[#3A7BF7]/50"
+            >
+              Book Your Appointment
+            </button>
           </div>
         </div>
         
+        {/* Footer Bottom */}
         <div className="border-t border-[#F3E8D0]/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p
             className="text-[#F3E8D0]/50 text-base"
             data-testid="text-footer-copyright"
           >
-            © {currentYear} Aurora Dream. Ottawa's Private Sleep Studio.
+            © {currentYear} Aurora Dream. Ottawa's Sleep Boutique.
           </p>
           
           <div className="flex items-center gap-2 text-[#F3E8D0]/70">
-            <MapleLeaf className="w-6 h-6 text-red-600" />
+            <span className="text-2xl">🍁</span>
             <span className="text-base font-medium">Proudly Canadian Made and Handcrafted</span>
           </div>
         </div>

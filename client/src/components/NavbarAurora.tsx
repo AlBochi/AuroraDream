@@ -2,11 +2,12 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import logoImage from "@assets/AuroraDream_1765665032890.png";
+import logoImage from "@assets/LogoFinal.jpg";
 
 const navItems = [
   { label: "About", href: "/#about", isSection: true },
   { label: "Our Products", href: "/products", isSection: false },
+  { label: "FAQ", href: "/faq", isSection: false },
   { label: "Book an Appointment", href: "https://calendly.com/albochi-auroradream/30min?month=2025-12", isSection: false },
   { label: "Contact Us", href: "/#contact", isSection: true },
 ];

@@ -317,4 +317,12 @@
 [style*="background-color: rgb(0, 154, 159)"],
 [style*="background-color: hsl(182, 100%, 31%)"] {
   background-color: hsl(var(--background)) !important;
-}} 
+}
+
+/* ===== FIX: Mobile Navbar Overlap for Hero Section ===== */
+@media (max-width: 767px) {
+  section[data-testid="section-hero"] {
+    padding-top: 8rem !important;
+  }
+}
+}

@@ -26,20 +26,24 @@ export default function HeroAurora() {
             <span className="font-semibold">Within Reach</span>
           </h1>
           
-          <p
-            className="text-lg sm:text-xl text-foreground/80 mb-12 font-light tracking-wide"
-            data-testid="text-hero-subheadline"
-          >
-            Ottawa's Private Sleep Studio
-          </p>
-          
-          <Button
-            onClick={bookAppointment}
-            className="bg-[#3A7BF7] hover:bg-[#3A7BF7]/90 text-[#F3E8D0] px-10 py-7 text-lg font-medium rounded-md shadow-lg shadow-[#3A7BF7]/30 transition-all duration-300 border border-[#3A7BF7]/50"
-            data-testid="button-book-fitting"
-          >
-            Book Your Private Fitting
-          </Button>
+          {/* NEW BUTTON AND TEXT BLOCK */}
+          <div className="space-y-8 mb-12">
+            <Button
+              onClick={bookAppointment}
+              className="bg-[#3A7BF7] hover:bg-[#3A7BF7]/90 text-[#F3E8D0] px-10 py-7 text-xl font-medium rounded-md shadow-lg shadow-[#3A7BF7]/30 transition-all duration-300 border border-[#3A7BF7]/50 w-full max-w-sm"
+              data-testid="button-book-fitting"
+            >
+              Book Your Premium Appointment
+            </Button>
+            
+            <p
+              className="text-lg sm:text-xl text-foreground/80 font-light tracking-wide max-w-lg"
+              data-testid="text-hero-subheadline"
+            >
+              Discover Boutique Canadian-Made Mattresses of Superior Quality
+            </p>
+          </div>
+          {/* END NEW BLOCK */}
         </div>
 
         {/* RIGHT SIDE: Image with Shadow - NOW SMALLER */}

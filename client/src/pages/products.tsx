@@ -1,17 +1,17 @@
-import AuroraSky from "@/components/AuroraSky";
+import SandBackground from "@/components/SandBackground";
 import NavbarAurora from "@/components/NavbarAurora";
 import ProductsPage from "@/components/ProductsPage";
-import FooterAurora from "@/components/FooterAurora";
+import FooterProducts from "@/components/FooterProducts";
 
 export default function Products() {
   return (
     <div className="relative min-h-screen">
-      <AuroraSky />
+      <SandBackground />
       <NavbarAurora />
       <main>
         <ProductsPage />
       </main>
-      <FooterAurora />
+      <FooterProducts />
     </div>
   );
 }

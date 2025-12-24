@@ -1,21 +1,20 @@
-import { Card } from "@/components/ui/card";
+import { Star } from "lucide-react";
 
-// todo: remove mock functionality - replace with real reviews from API
 const reviews = [
   {
-    quote: "The personalized fitting made all the difference. After years of poor sleep, I finally found the perfect pillow.",
     name: "Sarah M.",
     rating: 5,
+    text: "The personalized fitting made all the difference. After years of poor sleep, I finally found the perfect pillow.",
   },
   {
-    quote: "Such a refreshing experience. No pressure, just genuine expertise and beautiful Canadian-made products.",
     name: "Michael T.",
     rating: 5,
+    text: "Such a refreshing experience. No pressure, just genuine expertise and beautiful Canadian-made products.",
   },
   {
-    quote: "The weighted blanket has transformed my sleep routine completely. Exceptional quality.",
     name: "Jennifer L.",
     rating: 5,
+    text: "The weighted blanket has transformed my sleep routine completely. Exceptional quality.",
   },
 ];
 
@@ -40,35 +39,50 @@ export default function ReviewsAurora() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {reviews.map((review) => (
-            <Card
-              key={review.name}
-              className="p-8 border-0 bg-[#0A3A57]/50 backdrop-blur-sm"
-              data-testid={`card-review-${review.name.toLowerCase().replace(/\s+/g, "-")}`}
+          {reviews.map((review, index) => (
+            <div
+              key={index}
+              className="bg-[#0A3A57]/30 backdrop-blur-sm rounded-2xl p-8 border border-[#3A7BF7]/20 hover:border-[#3A7BF7]/40 transition-colors"
+              data-testid={`review-card-${index}`}
             >
-              <div className="flex gap-0.5 mb-6">
+              {/* Stars */}
+              <div className="flex justify-center mb-6">
                 {[...Array(5)].map((_, i) => (
-                  <span
+                  <Star
                     key={i}
-                    className={`text-lg ${
-                      i < review.rating ? "text-[#FFEBB5]" : "text-[#F3E8D0]/20"
+                    className={`w-6 h-6 ${
+                      i < review.rating
+                        ? "text-yellow-400 fill-yellow-400"
+                        : "text-[#F3E8D0]/30"
                     }`}
-                    style={i < review.rating ? { textShadow: "0 0 10px rgba(255, 235, 181, 0.6)" } : {}}
-                  >
-                    ★
-                  </span>
+                  />
                 ))}
               </div>
-              
-              <blockquote className="text-[#F3E8D0]/80 leading-relaxed mb-6 italic">
-                "{review.quote}"
-              </blockquote>
-              
-              <p className="text-sm font-medium text-[#F3E8D0]/50">
-                — {review.name}
+
+              {/* Review Text */}
+              <p className="text-[#F3E8D0]/80 text-center mb-8 italic leading-relaxed">
+                "{review.text}"
               </p>
-            </Card>
+
+              {/* Reviewer Name */}
+              <div className="text-center">
+                <p className="text-[#F3E8D0] font-medium">— {review.name}</p>
+              </div>
+            </div>
           ))}
+        </div>
+
+        {/* Star Rating Display */}
+        <div className="text-center mt-12">
+          <div className="inline-flex items-center gap-2 bg-[#0A3A57]/30 backdrop-blur-sm rounded-full px-6 py-3 border border-[#3A7BF7]/20">
+            <div className="flex">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className="w-5 h-5 text-yellow-400 fill-yellow-400" />
+              ))}
+            </div>
+            <span className="text-[#F3E8D0] font-medium">5.0</span>
+            <span className="text-[#F3E8D0]/60 text-sm">(Based on customer reviews)</span>
+          </div>
         </div>
       </div>
     </section>

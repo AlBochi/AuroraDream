@@ -8,12 +8,15 @@ import ReviewsAurora from "@/components/ReviewsAurora";
 import ContactAurora from "@/components/ContactAurora";
 import FooterAurora from "@/components/FooterAurora";
 import ThemedSection from "@/components/ThemedSection";
+import PopupModal from "@/components/PopupModal"; // Add this import
 
 export default function Home() {
   return (
     <div className="relative min-h-screen">
       <AuroraSky />
       <NavbarAurora />
+      {/* Add PopupModal here - it will show on page load */}
+      <PopupModal />
       <main>
         <HeroAurora />
         <ProductsAurora />

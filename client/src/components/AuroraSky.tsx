@@ -31,39 +31,39 @@ export default function AuroraSky() {
       ctx.fillStyle = gradient;
       ctx.fillRect(0, 0, width, height);
 
-      // EXTREMELY SLOW AURORA - barely moving
+      // EVEN SLOWER AURORA - Reduced all speeds by ~60%
       const layers = [
         { 
           color: "rgba(0, 255, 136, 0.2)", // Emerald green
-          speed: 0.000015, // EXTREMELY SLOW
+          speed: 0.000006, // SLOWER (was 0.000015)
           amplitude: 60, 
           yOffset: 0.2,
           frequency: 0.001
         },
         { 
           color: "rgba(128, 0, 255, 0.15)", // Purple
-          speed: 0.000012, // EXTREMELY SLOW
+          speed: 0.000005, // SLOWER (was 0.000012)
           amplitude: 80, 
           yOffset: 0.25,
           frequency: 0.0008
         },
         { 
           color: "rgba(0, 200, 255, 0.12)", // Cyan
-          speed: 0.00002, // EXTREMELY SLOW
+          speed: 0.000008, // SLOWER (was 0.00002)
           amplitude: 100, 
           yOffset: 0.3,
           frequency: 0.0012
         },
         { 
           color: "rgba(255, 100, 200, 0.1)", // Pink
-          speed: 0.00001, // EXTREMELY SLOW
+          speed: 0.000004, // SLOWER (was 0.00001)
           amplitude: 70, 
           yOffset: 0.35,
           frequency: 0.0009
         },
         { 
           color: "rgba(100, 220, 255, 0.08)", // Light blue
-          speed: 0.000018, // EXTREMELY SLOW
+          speed: 0.000007, // SLOWER (was 0.000018)
           amplitude: 90, 
           yOffset: 0.4,
           frequency: 0.0011

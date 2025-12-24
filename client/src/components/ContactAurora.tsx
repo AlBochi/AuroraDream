@@ -37,7 +37,7 @@ export default function ContactAurora() {
           className="text-3xl sm:text-4xl font-light text-[#F3E8D0] mb-8 tracking-wide"
           data-testid="text-contact-title"
         >
-          Visit Our Studio
+          Visit Our Showroom
         </h2>
         
         <p className="text-[#F3E8D0]/70 mb-12 max-w-xl mx-auto leading-relaxed text-lg">

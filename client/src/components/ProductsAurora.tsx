@@ -1,14 +1,15 @@
 import { Card } from "@/components/ui/card";
 import { Link } from "wouter";
-import palatialImage from "@assets/Palatial13_1765828175414.png";
-import premiumProtectorImage from "@assets/PremiumMattressProtector_1765828175414.jpg"; // CHANGED THIS LINE
+// Use LaylaFinal1 from public folder for the mattress image
+const laylaImage = "/images/LaylaFinal1.webp";
+import premiumProtectorImage from "@assets/PremiumMattressProtector_1765828175414.jpg";
 import coolIcePillowImage from "@assets/CoolIcePillow_1765828175418.jpg";
 
 const products = [
   {
     title: "Premium Mattresses",
     description: "10 luxurious mattress options from firm support to ultra-plush comfort, all Canadian-made.",
-    image: palatialImage,
+    image: laylaImage, // Updated to use LaylaFinal1
   },
   {
     title: "Sleep Pillows",
@@ -18,7 +19,7 @@ const products = [
   {
     title: "Mattress Protection",
     description: "Waterproof protectors and bed bug encasements to extend your mattress life.",
-    image: premiumProtectorImage, // CHANGED THIS LINE
+    image: premiumProtectorImage,
   },
 ];
 
