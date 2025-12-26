@@ -188,7 +188,7 @@ export default function FAQ() {
                 Contact our sleep experts for personalized assistance with your specific concerns.
               </p>
               <button
-                onClick={() => window.open("mailto:albochi@auroradream.ca", "_blank")}
+                onClick={() => window.open("mailto:info@auroradream.ca", "_blank")}
                 className="bg-[#3A7BF7] hover:bg-[#3A7BF7]/90 text-[#F3E8D0] px-8 py-4 text-lg font-medium rounded-md shadow-lg shadow-[#3A7BF7]/30 transition-all duration-300 border border-[#3A7BF7]/50"
               >
                 Email Our Support Team

@@ -53,7 +53,7 @@ Brand colors defined in `design_guidelines.md` and implemented in `client/src/in
 
 ### Contact Information
 - **Address**: 1489 Merivale Road, UNIT E, Ottawa, ON K2E 5P3, Canada
-- **Email**: albochi@auroradream.ca
+- **Email**: info@auroradream.ca
 - **Phone**: +1 (613) 290-0212
 - **Facebook**: https://www.facebook.com/profile.php?id=61565186787886
 - **Instagram**: https://www.instagram.com/carlasleepco/

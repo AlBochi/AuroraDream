@@ -3,7 +3,7 @@ import { MapPin, Mail, Phone, Car, Facebook, Instagram } from "lucide-react";
 
 export default function ContactAurora() {
   const handleEmailClick = () => {
-    window.location.href = "mailto:albochi@auroradream.ca";
+    window.location.href = "mailto:info@auroradream.ca";
   };
 
   const handlePhoneClick = () => {
@@ -66,7 +66,7 @@ export default function ContactAurora() {
             data-testid="contact-email"
           >
             <Mail className="w-6 h-6 text-[#3A7BF7]" />
-            <span>albochi@auroradream.ca</span>
+            <span>info@auroradream.ca</span>
           </button>
           
           <button

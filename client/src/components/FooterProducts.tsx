@@ -4,7 +4,7 @@ export default function FooterProducts() {
   const currentYear = new Date().getFullYear();
 
   const handleEmailClick = () => {
-    window.location.href = "mailto:albochi@auroradream.ca";
+    window.location.href = "mailto:info@auroradream.ca";
   };
 
   const handlePhoneClick = () => {
@@ -74,7 +74,7 @@ export default function FooterProducts() {
                 className="flex items-center gap-2 text-[#009A9F]/80 text-base hover:text-[#009A9F] transition-colors"
               >
                 <Mail className="w-5 h-5 text-[#3A7BF7]" />
-                <span>albochi@auroradream.ca</span>
+                <span>info@auroradream.ca</span>
               </button>
               <button
                 onClick={handlePhoneClick}
