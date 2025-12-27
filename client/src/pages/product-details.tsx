@@ -20,15 +20,15 @@ const opulenceImage = "/images/OpulenceFinal2.webp";
 const palatialImage = "/images/PalatialFinal2.webp";
 
 // Pillow images (keep as .jpg for now)
-import coolIcePillowImage from "@assets/CoolIcePillow_1765828175418.jpg";
-import charcoalPillowImage from "@assets/ActiveCharcoalPillow_1765828175419.jpg";
-import bambooPillowImage from "@assets/BambooOrganicPillow_1765828175418.jpg";
+import coolIcePillowImage from "@assets/CoolIcePillow_NEW.png";
+import charcoalPillowImage from "@assets/ActiveCharcoalPillow_NEW.png";
+import bambooPillowImage from "@assets/BambooOrganicPillow_NEW.png";
 import hotelPillowImage from "@assets/HotelComfortPillows_1765828175417.jpg";
 
 // Protector images
-import terryProtectorImage from "@assets/TerryMattressProtector_1765828175413.jpg";
-import coolIceProtectorImage from "@assets/PremiumMattressProtector_1765828175414.jpg";
-import encasementImage from "@assets/MattressEncasementSupreme_1765828175416.jpg";
+import terryProtectorImage from "@assets/TerryMattressProtector_NEW.png";
+import coolIceProtectorImage from "@assets/CoolIceMattressProtector_NEW.png";
+import encasementImage from "@assets/MattressEncasement_NEW.jpg";
 
 // All product data - UPDATED to match ProductsPage.tsx
 const productData = {
