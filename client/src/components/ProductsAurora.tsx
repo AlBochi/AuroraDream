@@ -2,8 +2,8 @@ import { Card } from "@/components/ui/card";
 import { Link } from "wouter";
 // Use LaylaFinal1 from public folder for the mattress image
 const laylaImage = "/images/LaylaFinal1.webp";
-import premiumProtectorImage from "@assets/PremiumMattressProtector_1765828175414.jpg";
-import coolIcePillowImage from "@assets/CoolIcePillow_1765828175418.jpg";
+import premiumProtectorImage from "@assets/PremiumMattressProtector_OPTIMIZED.jpg";
+import coolIcePillowImage from "@assets/CoolIcePillow_OPTIMIZED.jpg";
 
 const products = [
   {

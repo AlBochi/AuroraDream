@@ -16,15 +16,15 @@ const opulenceImage = "/images/OpulenceFinal1.webp";
 const palatialImage = "/images/PalatialFinal1.webp";
 
 // Pillow images
-import coolIcePillowImage from "@assets/CoolIcePillow_1765828175418.jpg";
-import charcoalPillowImage from "@assets/ActiveCharcoalPillow_1765828175419.jpg";
-import bambooPillowImage from "@assets/BambooOrganicPillow_1765828175418.jpg";
-import hotelPillowImage from "@assets/HotelComfortPillows_1765828175417.jpg";
+import coolIcePillowImage from "@assets/CoolIcePillow_OPTIMIZED.jpg";
+import charcoalPillowImage from "@assets/ActiveCharcoalPillow_OPTIMIZED.jpg";
+import bambooPillowImage from "@assets/BambooOrganicPillow_OPTIMIZED.jpg";
+import hotelPillowImage from "@assets/HotelComfortPillow_OPTIMIZED.jpg";
 
 // Protector images
-import terryProtectorImage from "@assets/TerryMattressProtector_1765828175413.jpg";
-import coolIceProtectorImage from "@assets/PremiumMattressProtector_1765828175414.jpg";
-import encasementImage from "@assets/MattressEncasementSupreme_1765828175416.jpg";
+import terryProtectorImage from "@assets/TerryMattressProtector_OPTIMIZED.jpg";
+import coolIceProtectorImage from "@assets/PremiumMattressProtector_OPTIMIZED.jpg";
+import encasementImage from "@assets/MattressEncasementSupreme_OPTIMIZED.jpg";
 
 // Helper function to create URL-friendly IDs
 const createId = (name) => name.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");

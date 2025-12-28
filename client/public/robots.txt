@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /login/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Sitemap: https://www.auroradream.ca/sitemap.xml
