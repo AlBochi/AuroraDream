@@ -16,3 +16,27 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+*.backup
+attached_assets/backup/
+
+# Security - DO NOT COMMIT
+dist/
+node_modules/
+attached_assets/backup*/
+attached_assets/*176582817541*.jpg  # Original huge files
+attached_assets/ThemePage*.png      # Large theme files
+
+# Local backups
+*.backup
+*.backup*
+backup*/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
