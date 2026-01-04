@@ -40,7 +40,7 @@ export default function HeroAurora() {
               className="text-lg sm:text-xl text-foreground/80 font-light tracking-wide max-w-lg"
               data-testid="text-hero-subheadline"
             >
-              Discover Boutique Canadian-Made Mattresses of Superior Quality
+              Discover Boutique Canadian-Made Mattresses • Ottawa's Sleep Destination
             </p>
           </div>
           {/* END NEW BLOCK */}

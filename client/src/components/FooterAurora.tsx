@@ -107,6 +107,14 @@ export default function FooterAurora() {
             className="text-[#F3E8D0]/50 text-base"
             data-testid="text-footer-copyright"
           >
+  {/* Hidden neighborhood links for SEO */}
+  <div className="hidden">
+    <a href="/kanata-mattress-delivery">Kanata Mattress Delivery</a>
+    <a href="/barrhaven-sleep-solutions">Barrhaven Sleep Solutions</a>
+    <a href="/nepean-mattress-store">Nepean Mattress Store</a>
+    <a href="/orleans-bed-shop">Orleans Bed Shop</a>
+    <a href="/centretown-mattress-showroom">Centretown Mattress Showroom</a>
+  </div>
             © {currentYear} Aurora Dream. Ottawa's Sleep Boutique.
           </p>
           

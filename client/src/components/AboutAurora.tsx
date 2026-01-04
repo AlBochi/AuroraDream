@@ -19,7 +19,7 @@ const whyAuroraDream = [
   },
   {
     title: "A Personalized Experience",
-    description: "We believe sleep is personal. That's why we invite you to experience our collection in person and find the solution that truly fits you.",
+    description: "We believe sleep is personal. That's why we invite you to visit our Ottawa showroom and experience our collection in person and find the solution that truly fits you.",
   },
 ];
 
@@ -50,7 +50,7 @@ export default function AboutAurora() {
         <div className="mb-24">
           <div className="space-y-6 text-[#F3E8D0]/80 leading-relaxed text-lg max-w-4xl mx-auto" style={{ fontFamily: "var(--font-sans)" }}>
             <p data-testid="text-about-paragraph-1">
-              Born from a simple vision, our boutique was created to bring premium sleep within reach for every dreamer in our community.
+              Born from a simple vision, our boutique was created to bring premium sleep within reach for every dreamer in our community. From our Ottawa showroom, we serve sleep seekers across the National Capital Region.
             </p>
             
             <p data-testid="text-about-paragraph-2">

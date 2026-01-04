@@ -41,7 +41,7 @@ export default function ContactAurora() {
         </h2>
         
         <p className="text-[#F3E8D0]/70 mb-12 max-w-xl mx-auto leading-relaxed text-lg">
-          Experience the Aurora Dream collection firsthand. Schedule a private fitting 
+          Experience the Aurora Dream collection firsthand at our Ottawa showroom. Schedule a private fitting 
           and discover the mattress, pillow, or sleep system designed for your best rest yet.
         </p>
 

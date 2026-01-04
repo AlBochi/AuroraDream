@@ -1,4 +1,5 @@
 import AuroraSky from "@/components/AuroraSky";
+import FAQSchema from "@/components/seo/FAQSchema";
 import NavbarAurora from "@/components/NavbarAurora";
 import FooterAurora from "@/components/FooterAurora";
 import { ChevronDown, ChevronUp } from "lucide-react";
@@ -120,8 +121,10 @@ function FAQItem({ question, answer, isOpen, onToggle }) {
       {isOpen && (
         <div className="pb-6">
           <p className="text-[#F3E8D0]/80 leading-relaxed">{answer}</p>
+        <FAQSchema />
         </div>
       )}
+        <FAQSchema />
     </div>
   );
 }
@@ -153,6 +156,7 @@ export default function FAQ() {
             <p className="text-[#F3E8D0]/60 text-lg max-w-2xl mx-auto">
               Find answers to common questions about our policies, delivery, warranties, and mattress care.
             </p>
+        <FAQSchema />
           </div>
 
           {/* FAQ Content */}
@@ -173,9 +177,12 @@ export default function FAQ() {
                       onToggle={() => toggleItem(categoryIndex, itemIndex)}
                     />
                   ))}
+        <FAQSchema />
                 </div>
+        <FAQSchema />
               </div>
             ))}
+        <FAQSchema />
           </div>
 
           {/* Contact CTA */}
@@ -193,12 +200,16 @@ export default function FAQ() {
               >
                 Email Our Support Team
               </button>
+        <FAQSchema />
             </div>
+        <FAQSchema />
           </div>
+        <FAQSchema />
         </div>
       </main>
 
       <FooterAurora />
+        <FAQSchema />
     </div>
   );
 }

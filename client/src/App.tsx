@@ -8,6 +8,11 @@ import Products from "@/pages/products";
 import ProductDetails from "@/pages/product-details";
 import FAQ from "@/pages/faq";
 import NotFound from "@/pages/not-found";
+import KanataPage from "@/pages/neighborhoods/kanata";
+import BarrhavenPage from "@/pages/neighborhoods/barrhaven";
+import NepeanPage from "@/pages/neighborhoods/nepean";
+import OrleansPage from "@/pages/neighborhoods/orleans";
+import CentretownPage from "@/pages/neighborhoods/centretown";
 
 function Router() {
   return (
@@ -16,6 +21,11 @@ function Router() {
       <Route path="/products" component={Products} />
       <Route path="/product-details/:id" component={ProductDetails} />
       <Route path="/faq" component={FAQ} />
+      <Route path="/kanata-mattress-delivery" component={KanataPage} />
+      <Route path="/barrhaven-sleep-solutions" component={BarrhavenPage} />
+      <Route path="/nepean-mattress-store" component={NepeanPage} />
+      <Route path="/orleans-bed-shop" component={OrleansPage} />
+      <Route path="/centretown-mattress-showroom" component={CentretownPage} />
       <Route component={NotFound} />
     </Switch>
   );

@@ -32,10 +32,9 @@ export default defineConfig({
     emptyOutDir: true,
   },
   server: {
-    // ADD THIS SECTION
     allowedHosts: [
-      'paulita-protoplasmatic-informingly.ngrok-free.dev', // Your specific ngrok domain
-      '.ngrok-free.dev' // Allow ALL ngrok domains
+      'paulita-protoplasmatic-informingly.ngrok-free.dev',
+      '.ngrok-free.dev'
     ],
     fs: {
       strict: true,
