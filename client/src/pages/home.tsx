@@ -8,6 +8,7 @@ import ReviewsAurora from "@/components/ReviewsAurora";
 import ContactAurora from "@/components/ContactAurora";
 import FooterAurora from "@/components/FooterAurora";
 import ThemedSection from "@/components/ThemedSection";
+import ProperOttawaMap from "@/components/ProperOttawaMap";
 
 export default function Home() {
   return (
@@ -17,6 +18,13 @@ export default function Home() {
       <main>
         <HeroAurora />
         <ProductsAurora />
+        {/* Interactive Service Area Map */}
+        <section className="py-12 md:py-20 bg-gradient-to-b from-gray-900/20 to-black/40">
+          <div className="container mx-auto px-4">
+            <ProperOttawaMap />
+          </div>
+        </section>
+
         <ThemedSection variant={1}>
           <OurPartnersAurora />
         </ThemedSection>
