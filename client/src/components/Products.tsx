@@ -1,7 +1,7 @@
 import ProductCard from "./ProductCard";
-import pillowImage from "@assets/generated_images/premium_pillow_product_shot.png";
-import mattressImage from "@assets/generated_images/luxury_mattress_product_shot.png";
-import blanketImage from "@assets/generated_images/weighted_blanket_product_shot.png";
+import pillowImage from "@assets/generated_images/premium_pillow_product_shot.webp";
+import mattressImage from "@assets/generated_images/luxury_mattress_product_shot.webp";
+import blanketImage from "@assets/generated_images/weighted_blanket_product_shot.webp";
 
 // todo: remove mock functionality - replace with real product data from API
 const products = [

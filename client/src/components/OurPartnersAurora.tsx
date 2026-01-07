@@ -1,6 +1,6 @@
 import sensisleepLogo from "@assets/sensisleep_1765832539452.jpg";
 import healthguardLogo from "@assets/HealthGaurd_1765832539453.jpeg";
-import acimaLogo from "@assets/acima_1765832539454.png";
+import acimaLogo from "@assets/acima_1765832539454.webp";
 import ifinanceLogo from "@assets/Ifinance_1765832539452.jpeg";
 
 const partners = [

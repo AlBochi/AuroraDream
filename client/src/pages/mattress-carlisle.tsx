@@ -2,7 +2,7 @@ import AuroraSky from "@/components/AuroraSky";
 import NavbarAurora from "@/components/NavbarAurora";
 import MattressPage from "@/components/MattressPage";
 import FooterAurora from "@/components/FooterAurora";
-import carlisleImage from "@assets/Carlisle3_1765749259002.png";
+import carlisleImage from "@assets/Carlisle3_1765749259002.webp";
 
 export default function MattressCarlisle() {
   return (

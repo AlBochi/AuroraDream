@@ -1,4 +1,4 @@
-import aboutImage from "@assets/generated_images/serene_canadian_nature_scene.png";
+import aboutImage from "@assets/generated_images/serene_canadian_nature_scene.webp";
 
 export default function About() {
   return (

@@ -2,7 +2,7 @@ import AuroraSky from "@/components/AuroraSky";
 import NavbarAurora from "@/components/NavbarAurora";
 import MattressPage from "@/components/MattressPage";
 import FooterAurora from "@/components/FooterAurora";
-import baileyImage from "@assets/Bailey2_1765749259005.png";
+import baileyImage from "@assets/Bailey2_1765749259005.webp";
 
 export default function MattressBailey() {
   return (

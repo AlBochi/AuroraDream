@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@assets/generated_images/luxury_nordic_bedroom_hero.png";
+import heroImage from "@assets/generated_images/luxury_nordic_bedroom_hero.webp";
 
 export default function Hero() {
   const scrollToContact = () => {

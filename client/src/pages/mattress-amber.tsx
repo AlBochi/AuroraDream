@@ -2,7 +2,7 @@ import AuroraSky from "@/components/AuroraSky";
 import NavbarAurora from "@/components/NavbarAurora";
 import MattressPage from "@/components/MattressPage";
 import FooterAurora from "@/components/FooterAurora";
-import amberImage from "@assets/Amber1_1765749259006.png";
+import amberImage from "@assets/Amber1_1765749259006.webp";
 
 export default function MattressAmber() {
   return (
