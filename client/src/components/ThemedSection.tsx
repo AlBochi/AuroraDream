@@ -1,5 +1,5 @@
-import themePage1 from "@assets/ThemePage1_1765832539451.png";
-import themePage2 from "@assets/ThemePage2_1765832539450.png";
+import themePage1 from "@assets/ThemePage1_1765832539451.webp";
+import themePage2 from "@assets/ThemePage2_1765832539450.webp";
 
 interface ThemedSectionProps {
   children: React.ReactNode;
