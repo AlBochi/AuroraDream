@@ -17,3 +17,5 @@
   const handleLinkedInClick = () => {
     window.open("https://www.linkedin.com/company/aurora-dream", "_blank");
   };
+
+export default FooterAurora;
