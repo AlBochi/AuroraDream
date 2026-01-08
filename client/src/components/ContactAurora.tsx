@@ -1,36 +1,12 @@
-import { MapPin, Mail, Phone, Car, Facebook, Instagram, Navigation, Youtube, Twitter, Linkedin, MessageSquare } from "lucide-react";
+import { MapPin, Mail, Phone, Car, Facebook, Instagram, Navigation } from "lucide-react";
 
 const ContactAurora = () => {
-  const handleAddressClick = () => {
-    window.open("https://maps.google.com/?q=1489+Merivale+Road,+UNIT+E,+Ottawa,+ON+K2E+5P3,+Canada", "_blank");
-  };
-
   const handleFacebookClick = () => {
     window.open("https://facebook.com/auroradreamsleep", "_blank");
   };
 
   const handleInstagramClick = () => {
     window.open("https://www.instagram.com/auroradream.ca/", "_blank");
-  };
-
-  const handleYouTubeClick = () => {
-    window.open("https://www.youtube.com/@AuroraDreamCa", "_blank");
-  };
-
-  const handleTwitterClick = () => {
-    window.open("https://x.com/AuroraDreamCa", "_blank");
-  };
-
-  const handleThreadsClick = () => {
-    window.open("https://www.threads.net/@auroradream.ca", "_blank");
-  };
-
-  const handleLinkedInClick = () => {
-    window.open("https://www.linkedin.com/company/aurora-dream", "_blank");
-  };
-
-  const handleCalendlyClick = () => {
-    window.open("https://calendly.com/albochi-auroradream/30min?month=2025-12", "_blank");
   };
 
   return (
@@ -69,10 +45,7 @@ const ContactAurora = () => {
                   
                   <div>
                     <h4 className="text-lg font-medium mb-2">Email</h4>
-                    <a 
-                      href="mailto:info@auroradream.ca" 
-                      className="opacity-90 hover:text-[#3A7BF7] transition-colors flex items-center gap-2"
-                    >
+                    <a href="mailto:info@auroradream.ca" className="opacity-90 hover:text-[#3A7BF7] transition-colors flex items-center gap-2">
                       <Mail size={18} />
                       info@auroradream.ca
                     </a>
@@ -80,10 +53,7 @@ const ContactAurora = () => {
                   
                   <div>
                     <h4 className="text-lg font-medium mb-2">Phone</h4>
-                    <a 
-                      href="tel:+16132900212" 
-                      className="opacity-90 hover:text-[#3A7BF7] transition-colors flex items-center gap-2"
-                    >
+                    <a href="tel:+16132900212" className="opacity-90 hover:text-[#3A7BF7] transition-colors flex items-center gap-2">
                       <Phone size={18} />
                       +1 (613) 290-0212
                     </a>
@@ -94,11 +64,7 @@ const ContactAurora = () => {
                     <div className="pt-2">
                       <div className="flex items-center gap-4">
                         <button onClick={handleFacebookClick} className="flex items-center justify-center w-12 h-12 rounded-full bg-[#3A7BF7]/20 hover:bg-[#3A7BF7]/40 text-[#F3E8D0] transition-all duration-300 hover:scale-110" aria-label="Facebook"><Facebook className="w-6 h-6" /></button>
-                        <button onClick={handleInstagramClick} className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-br from-[#833AB4] via-[#FD1D1D] to-[#F56040]/20 hover:from-[#833AB4] hover:via-[#FD1D1D] hover:to-[#F56040]/40 text-[#F3E8D0] transition-all duration-300 hover:scale-110" aria-label="Instagram"><Instagram className="w-6 h-6" /></button>
-                        <button onClick={handleYouTubeClick} className="flex items-center justify-center w-12 h-12 rounded-full bg-[#FF0000]/20 hover:bg-[#FF0000]/40 text-[#F3E8D0] transition-all duration-300 hover:scale-110" aria-label="YouTube"><Youtube className="w-6 h-6" /></button>
-                        <button onClick={handleTwitterClick} className="flex items-center justify-center w-12 h-12 rounded-full bg-black/20 hover:bg-black/40 text-[#F3E8D0] transition-all duration-300 hover:scale-110" aria-label="X/Twitter"><Twitter className="w-6 h-6" /></button>
-                        <button onClick={handleThreadsClick} className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-br from-[#000000] via-[#333333] to-[#666666]/20 hover:from-[#000000] hover:via-[#333333] hover:to-[#666666]/40 text-[#F3E8D0] transition-all duration-300 hover:scale-110" aria-label="Threads"><MessageSquare className="w-6 h-6" /></button>
-                        <button onClick={handleLinkedInClick} className="flex items-center justify-center w-12 h-12 rounded-full bg-[#0A66C2]/20 hover:bg-[#0A66C2]/40 text-[#F3E8D0] transition-all duration-300 hover:scale-110" aria-label="LinkedIn"><Linkedin className="w-6 h-6" /></button>
+                        <button onClick={handleInstagramClick} className="flex items-center justify-center w-12 h-12 rounded-full bg-[#3A7BF7]/20 hover:bg-[#3A7BF7]/40 text-[#F3E8D0] transition-all duration-300 hover:scale-110" aria-label="Instagram"><Instagram className="w-6 h-6" /></button>
                       </div>
                     </div>
                   </div>
@@ -113,12 +79,6 @@ const ContactAurora = () => {
                 <p className="opacity-90 mb-6">
                   We're conveniently located right beside the famous Casa Mexico restaurant on Merivale Road!
                 </p>
-              </div>
-              
-              <div className="bg-white/10 rounded-lg p-6">
-                <h4 className="text-xl font-medium mb-4 text-[#3A7BF7]">Schedule Your Private Fitting</h4>
-                <p className="opacity-90 mb-4">Appointment-only for personalized service</p>
-                <button onClick={handleCalendlyClick} className="inline-block bg-[#3A7BF7] text-white px-8 py-3 rounded-full hover:bg-[#2A5BD7] transition-colors font-medium">Book Your Appointment</button>
               </div>
             </div>
           </div>
