@@ -1,4 +1,4 @@
-import { MapPin, Mail, Phone, Car, Facebook, Instagram, Navigation } from "lucide-react";
+import { MapPin, Mail, Phone, Car, Facebook, Instagram, Navigation, Youtube, Twitter, Linkedin, MessageSquare } from "lucide-react";
 
 const ContactAurora = () => {
   const handleFacebookClick = () => {
@@ -7,6 +7,22 @@ const ContactAurora = () => {
 
   const handleInstagramClick = () => {
     window.open("https://www.instagram.com/auroradream.ca/", "_blank");
+  };
+
+  const handleYouTubeClick = () => {
+    window.open("https://www.youtube.com/@AuroraDreamCa", "_blank");
+  };
+
+  const handleTwitterClick = () => {
+    window.open("https://x.com/AuroraDreamCa", "_blank");
+  };
+
+  const handleThreadsClick = () => {
+    window.open("https://www.threads.net/@auroradream.ca", "_blank");
+  };
+
+  const handleLinkedInClick = () => {
+    window.open("https://www.linkedin.com/company/aurora-dream", "_blank");
   };
 
   return (
@@ -61,12 +77,28 @@ const ContactAurora = () => {
                   
                   <div>
                     <h4 className="text-lg font-medium mb-4">Follow us on social media</h4>
-                    <div className="pt-2">
-                      <div className="flex items-center gap-4">
-                        <button onClick={handleFacebookClick} className="flex items-center justify-center w-12 h-12 rounded-full bg-[#3A7BF7]/20 hover:bg-[#3A7BF7]/40 text-[#F3E8D0] transition-all duration-300 hover:scale-110" aria-label="Facebook"><Facebook className="w-6 h-6" /></button>
-                        <button onClick={handleInstagramClick} className="flex items-center justify-center w-12 h-12 rounded-full bg-[#3A7BF7]/20 hover:bg-[#3A7BF7]/40 text-[#F3E8D0] transition-all duration-300 hover:scale-110" aria-label="Instagram"><Instagram className="w-6 h-6" /></button>
-                      </div>
-                    </div>
+                          <div className="pt-2">
+        <div className="flex items-center gap-4 flex-wrap justify-center">
+          <button onClick={handleFacebookClick} className="flex items-center justify-center w-12 h-12 rounded-full bg-[#3A7BF7]/20 hover:bg-[#3A7BF7]/40 text-[#F3E8D0] transition-all duration-300 hover:scale-110" aria-label="Facebook">
+            <Facebook className="w-6 h-6" />
+          </button>
+          <button onClick={handleInstagramClick} className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-br from-[#833AB4] via-[#FD1D1D] to-[#F56040]/20 hover:from-[#833AB4] hover:via-[#FD1D1D] hover:to-[#F56040]/40 text-[#F3E8D0] transition-all duration-300 hover:scale-110" aria-label="Instagram">
+            <Instagram className="w-6 h-6" />
+          </button>
+          <button onClick={handleYouTubeClick} className="flex items-center justify-center w-12 h-12 rounded-full bg-[#FF0000]/20 hover:bg-[#FF0000]/40 text-[#F3E8D0] transition-all duration-300 hover:scale-110" aria-label="YouTube">
+            <Youtube className="w-6 h-6" />
+          </button>
+          <button onClick={handleTwitterClick} className="flex items-center justify-center w-12 h-12 rounded-full bg-black/20 hover:bg-black/40 text-[#F3E8D0] transition-all duration-300 hover:scale-110" aria-label="X (Twitter)">
+            <Twitter className="w-6 h-6" />
+          </button>
+          <button onClick={handleThreadsClick} className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-br from-[#000000] via-[#333333] to-[#666666]/20 hover:from-[#000000] hover:via-[#333333] hover:to-[#666666]/40 text-[#F3E8D0] transition-all duration-300 hover:scale-110" aria-label="Threads">
+            <MessageSquare className="w-6 h-6" />
+          </button>
+          <button onClick={handleLinkedInClick} className="flex items-center justify-center w-12 h-12 rounded-full bg-[#0A66C2]/20 hover:bg-[#0A66C2]/40 text-[#F3E8D0] transition-all duration-300 hover:scale-110" aria-label="LinkedIn">
+            <Linkedin className="w-6 h-6" />
+          </button>
+        </div>
+      </div>
                   </div>
                 </div>
               </div>

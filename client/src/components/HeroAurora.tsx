@@ -54,7 +54,7 @@ export default function HeroAurora() {
             
             {/* The Image - Now Smaller */}
             <img
-              src="/images/hero-side.jpg"
+              src="/images/hero-side.webp"
               alt="Luxury mattress at Aurora Dream"
               className="relative w-full h-auto rounded-2xl shadow-xl shadow-foreground/15 border border-background/30"
             />
