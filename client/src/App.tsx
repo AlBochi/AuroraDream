@@ -6,6 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import Home from "@/pages/home";
 import Products from "@/pages/products";
 import ProductDetails from "@/pages/product-details";
+import DeliveryZone from "@/pages/DeliveryZone";
 import FAQ from "@/pages/faq";
 import NotFound from "@/pages/not-found";
 import KanataPage from "@/pages/neighborhoods/kanata";
@@ -19,6 +20,7 @@ function Router() {
     <Switch>
       <Route path="/" component={Home} />
       <Route path="/products" component={Products} />
+      <Route path="/delivery-zone" component={DeliveryZone} />
       <Route path="/product-details/:id" component={ProductDetails} />
       <Route path="/faq" component={FAQ} />
       <Route path="/kanata-mattress-delivery" component={KanataPage} />

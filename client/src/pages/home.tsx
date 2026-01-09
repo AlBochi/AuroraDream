@@ -20,15 +20,6 @@ export default function Home() {
       <main>
         <HeroAurora />
         <ProductsAurora />
-        {/* Interactive Service Area Map */}
-        <section className="py-12 md:py-20 bg-gradient-to-b from-gray-900/20 to-black/40">
-          <div className="container mx-auto px-4">
-            <React.Suspense fallback={<div className="h-64 flex items-center justify-center"><div className="text-gray-500">Loading service area map...</div></div>}>
-            <ProperOttawaMap />
-          </React.Suspense>
-          </div>
-        </section>
-
         <ThemedSection variant={1}>
           <OurPartnersAurora />
         </ThemedSection>
