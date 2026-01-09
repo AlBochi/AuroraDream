@@ -1,4 +1,4 @@
-import { MapPin, Mail, Phone, Facebook, Instagram } from "lucide-react";
+import { MapPin, Mail, Phone, Facebook, Instagram, Youtube, Twitter, Linkedin, MessageSquare } from "lucide-react";
 const FooterAurora = () => {
   const handleFacebookClick = () => { window.open("https://facebook.com/auroradreamsleep", "_blank"); };
   const handleInstagramClick = () => { window.open("https://www.instagram.com/auroradream.ca/", "_blank"); };

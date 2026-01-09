@@ -75,10 +75,25 @@ const ContactAurora = () => {
             {/* Location Section */}
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-light mb-6">Perfect Location</h3>
+                                <h3 className="text-2xl font-light mb-6">Perfect Location</h3>
                 <p className="opacity-90 mb-6">
                   We're conveniently located right beside the famous Casa Mexico restaurant on Merivale Road!
                 </p>
+                
+                {/* Map Image */}
+                <div className="mt-6 rounded-lg overflow-hidden border border-white/10">
+                  <img 
+                    src="/assets/location/ourmaplocation-optimized.webp" 
+                    alt="Aurora Dream location map - 1489 Merivale Road next to Casa Mexico Restaurant"
+                    className="w-full h-auto"
+                    loading="lazy"
+                  />
+                  <div className="bg-white/5 p-4">
+                    <p className="text-sm opacity-80 text-center">
+                      📍 1489 Merivale Road, Unit E • Right beside Casa Mexico
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
