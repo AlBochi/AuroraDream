@@ -8,31 +8,37 @@ export default function DeliveryZone() {
     <>
       <NavbarAurora />
       
-      <main className="min-h-screen bg-gradient-to-b from-[#0A3A57] to-[#0d2b42]">
-        {/* Hero Section */}
-        <div className="pt-24 pb-12 px-4 text-center">
-          <div className="container mx-auto max-w-6xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Aurora Dream <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Delivery Zone</span>
-            </h1>
-            <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-8">
-              Free premium mattress delivery across Ottawa, Gatineau, and the National Capital Region
-            </p>
+      {/* Main content with MORE top padding to clear header completely */}
+      <main className="min-h-screen bg-gradient-to-b from-[#0A3A57] to-[#0d2b42] pt-28 md:pt-32">
+        
+        {/* Hero Section - EVEN MORE margin-top to ensure full visibility */}
+        <div className="pb-12 px-4">
+          <div className="container mx-auto max-w-6xl text-center">
+            {/* Increased to mt-12 for more space below header */}
+            <div className="mt-12 md:mt-16">
+              <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+                Aurora Dream <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Delivery Zone</span>
+              </h1>
+              <p className="text-xl text-gray-300 mb-8">
+                Free premium mattress delivery across Ottawa, Gatineau, and surrounding areas
+              </p>
+            </div>
             
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-2xl mx-auto">
-              <div className="bg-white/10 p-4 rounded-xl">
+            {/* Quick stats */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-2xl mx-auto mt-8">
+              <div className="bg-white/10 p-4 rounded-xl backdrop-blur-sm">
                 <div className="text-2xl mb-2">🚚</div>
                 <p className="text-sm font-medium text-white">Free Delivery</p>
               </div>
-              <div className="bg-white/10 p-4 rounded-xl">
+              <div className="bg-white/10 p-4 rounded-xl backdrop-blur-sm">
                 <div className="text-2xl mb-2">⚡</div>
                 <p className="text-sm font-medium text-white">Same-Day Available</p>
               </div>
-              <div className="bg-white/10 p-4 rounded-xl">
+              <div className="bg-white/10 p-4 rounded-xl backdrop-blur-sm">
                 <div className="text-2xl mb-2">🛡️</div>
                 <p className="text-sm font-medium text-white">10-Year Warranty</p>
               </div>
-              <div className="bg-white/10 p-4 rounded-xl">
+              <div className="bg-white/10 p-4 rounded-xl backdrop-blur-sm">
                 <div className="text-2xl mb-2">♻️</div>
                 <p className="text-sm font-medium text-white">Mattress Disposal</p>
               </div>
