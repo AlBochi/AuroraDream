@@ -16,6 +16,11 @@ import OrleansPage from "@/pages/neighborhoods/orleans";
 import KanataMattressPage from '@/pages/neighborhoods/kanata-mattress';
 import BarrhavenMattressPage from '@/pages/neighborhoods/barrhaven-mattress';
 import GatineauMatelasPage from '@/pages/neighborhoods/gatineau-matelas';
+import StittsvilleMattressPage from '@/pages/neighborhoods/stittsville-mattress';
+import OrleansMattressPage from '@/pages/neighborhoods/orleans-mattress';
+import WestboroMattressPage from '@/pages/neighborhoods/westboro-mattress';
+import HullMatelasPage from '@/pages/neighborhoods/hull-matelas';
+import MattressDisposalPage from '@/pages/services/mattress-disposal-ottawa';
 import CentretownPage from "@/pages/neighborhoods/centretown";
 
 function Router() {
@@ -31,6 +36,11 @@ function Router() {
       <Route path="/nepean-mattress-store" component={NepeanPage} />
       <Route path="/orleans-bed-shop" component={OrleansPage} />
       <Route path="/centretown-mattress-showroom" component={CentretownPage} />
+      <Route path="/services/mattress-disposal-ottawa" component={MattressDisposalPage} />
+      <Route path="/neighborhoods/hull-matelas" component={HullMatelasPage} />
+      <Route path="/neighborhoods/westboro-mattress" component={WestboroMattressPage} />
+      <Route path="/neighborhoods/orleans-mattress" component={OrleansMattressPage} />
+      <Route path="/neighborhoods/stittsville-mattress" component={StittsvilleMattressPage} />
       <Route path="/neighborhoods/gatineau-matelas" component={GatineauMatelasPage} />
       <Route path="/neighborhoods/barrhaven-mattress" component={BarrhavenMattressPage} />
       <Route path="/neighborhoods/kanata-mattress" component={KanataMattressPage} />
