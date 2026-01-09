@@ -3,6 +3,7 @@ import React from "react";
 import NavbarAurora from "@/components/NavbarAurora";
 import FooterAurora from "@/components/FooterAurora";
 import ProperOttawaMap from "@/components/ProperOttawaMap";
+import { DeliveryZoneSchema } from '@/components/DeliveryZoneSchema';
 
 export default function DeliveryZone() {
   return (
@@ -129,6 +130,7 @@ export default function DeliveryZone() {
       
         <SeoSchema pageType="service" />
         <SeoSchema pageType="service" />
+        <DeliveryZoneSchema />
       <FooterAurora />
     </>
   );
