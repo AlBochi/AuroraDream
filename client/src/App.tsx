@@ -13,6 +13,9 @@ import KanataPage from "@/pages/neighborhoods/kanata";
 import BarrhavenPage from "@/pages/neighborhoods/barrhaven";
 import NepeanPage from "@/pages/neighborhoods/nepean";
 import OrleansPage from "@/pages/neighborhoods/orleans";
+import KanataMattressPage from '@/pages/neighborhoods/kanata-mattress';
+import BarrhavenMattressPage from '@/pages/neighborhoods/barrhaven-mattress';
+import GatineauMatelasPage from '@/pages/neighborhoods/gatineau-matelas';
 import CentretownPage from "@/pages/neighborhoods/centretown";
 
 function Router() {
@@ -28,6 +31,9 @@ function Router() {
       <Route path="/nepean-mattress-store" component={NepeanPage} />
       <Route path="/orleans-bed-shop" component={OrleansPage} />
       <Route path="/centretown-mattress-showroom" component={CentretownPage} />
+      <Route path="/neighborhoods/gatineau-matelas" component={GatineauMatelasPage} />
+      <Route path="/neighborhoods/barrhaven-mattress" component={BarrhavenMattressPage} />
+      <Route path="/neighborhoods/kanata-mattress" component={KanataMattressPage} />
       <Route component={NotFound} />
     </Switch>
   );
