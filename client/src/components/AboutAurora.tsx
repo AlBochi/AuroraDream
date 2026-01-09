@@ -1,7 +1,6 @@
 export default function AboutAurora() {
   return (
     <section id="about"
-      id="about"
       className="relative py-32"
       data-testid="section-about"
     >
