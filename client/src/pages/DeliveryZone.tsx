@@ -1,3 +1,4 @@
+import { SeoSchema } from '@/components/SeoSchema';
 import React from "react";
 import NavbarAurora from "@/components/NavbarAurora";
 import FooterAurora from "@/components/FooterAurora";
@@ -126,6 +127,8 @@ export default function DeliveryZone() {
         </div>
       </main>
       
+        <SeoSchema pageType="service" />
+        <SeoSchema pageType="service" />
       <FooterAurora />
     </>
   );

@@ -1,3 +1,4 @@
+import { SeoSchema } from '@/components/SeoSchema';
 import React from 'react';
 import AuroraSky from "@/components/AuroraSky";
 import NavbarAurora from "@/components/NavbarAurora";
@@ -29,6 +30,8 @@ export default function Home() {
         </ThemedSection>
         <ContactAurora />
       </main>
+        <SeoSchema pageType="homepage" />
+        <SeoSchema pageType="homepage" />
       <FooterAurora />
     </div>
   );

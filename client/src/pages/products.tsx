@@ -1,3 +1,4 @@
+import { SeoSchema } from '@/components/SeoSchema';
 import SandBackground from "@/components/SandBackground";
 import NavbarAurora from "@/components/NavbarAurora";
 import ProductsPage from "@/components/ProductsPage";
@@ -11,6 +12,8 @@ export default function Products() {
       <main>
         <ProductsPage />
       </main>
+        <SeoSchema pageType="service" />
+        <SeoSchema pageType="service" />
       <FooterProducts />
     </div>
   );
