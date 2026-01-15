@@ -36,11 +36,11 @@ const mattresses = [
     description: "Carlisle Medium Firm Foam is built for sleepers who want responsive comfort with dependable support. Its eco-friendly, soy-based Bio-Foam resists body impressions and delivers quick response for immediate relaxation without excessive sink. A lofty, multi-needle quilt with super-soft Bio-Foam and smooth silk fabric enhances surface comfort while maintaining a balanced, medium-firm feel. CertiPUR-US® certified foams ensure durability, low emissions, and long-lasting performance.",
     image: carlisleImage,
     prices: [
-      { size: "TWIN", price: 259 },
-      { size: "TWIN XL", price: 344 },
-      { size: "FULL/DOUBLE", price: 344 },
-      { size: "QUEEN", price: 402 },
-      { size: "KING", price: 574 }
+      { size: "TWIN",  },
+      { size: "TWIN XL",  },
+      { size: "FULL/DOUBLE",  },
+      { size: "QUEEN",  },
+      { size: "KING",  }
     ]
   },
   {
@@ -49,11 +49,11 @@ const mattresses = [
     description: "Diana is engineered for sleepers who want uncompromising firmness with dependable comfort. Built with a reinforced perimeter and a continuous coil system, it delivers strong, edge-to-edge support that eliminates the roll-off feeling and maintains structural integrity night after night. An added layer of super-soft Bio-Foam enhances comfort without softening the feel, providing subtle pressure relief while preserving a truly firm sleep surface.",
     image: dianaImage,
     prices: [
-      { size: "TWIN", price: 334 },
-      { size: "TWIN XL", price: 460 },
-      { size: "FULL/DOUBLE", price: 460 },
-      { size: "QUEEN", price: 518 },
-      { size: "KING", price: 744 }
+      { size: "TWIN",  },
+      { size: "TWIN XL",  },
+      { size: "FULL/DOUBLE",  },
+      { size: "QUEEN",  },
+      { size: "KING",  }
     ]
   },
   {
@@ -62,11 +62,11 @@ const mattresses = [
     description: "Gemma offers the perfect balance between support and comfort. Full perimeter coil construction ensures stability, creating a polished, breathable, medium-firm sleep surface.",
     image: gemmaImage,
     prices: [
-      { size: "TWIN", price: 510 },
-      { size: "TWIN XL", price: 700 },
-      { size: "FULL/DOUBLE", price: 700 },
-      { size: "QUEEN", price: 765 },
-      { size: "KING", price: 1050 }
+      { size: "TWIN",  },
+      { size: "TWIN XL",  },
+      { size: "FULL/DOUBLE",  },
+      { size: "QUEEN",  },
+      { size: "KING",  }
     ]
   },
   {
@@ -75,11 +75,11 @@ const mattresses = [
     description: "Essex is an all-foam design crafted for contouring comfort. A high-density soy foam base resists impressions, while convoluted foam enhances airflow and pressure relief. The plush Euro Top, infused with cooling gel Bio-Foam, adds a touch of luxury and softness.",
     image: essexImage,
     prices: [
-      { size: "TWIN", price: 638 },
-      { size: "TWIN XL", price: 829 },
-      { size: "FULL/DOUBLE", price: 829 },
-      { size: "QUEEN", price: 894 },
-      { size: "KING", price: 1170 }
+      { size: "TWIN",  },
+      { size: "TWIN XL",  },
+      { size: "FULL/DOUBLE",  },
+      { size: "QUEEN",  },
+      { size: "KING",  }
     ]
   },
   {
@@ -88,11 +88,11 @@ const mattresses = [
     description: "Indigo delivers targeted, intelligent support through multi-zone contour pocket coils and reinforced edge stability. A silky-soft Tencel® cover enhances breathability, while gel-infused quilting and high-density CertiPUR® foams provide long-lasting comfort and pressure relief.",
     image: indigoImage,
     prices: [
-      { size: "TWIN", price: 765 },
-      { size: "TWIN XL", price: 956 },
-      { size: "FULL/DOUBLE", price: 956 },
-      { size: "QUEEN", price: 1084 },
-      { size: "KING", price: 1405 }
+      { size: "TWIN",  },
+      { size: "TWIN XL",  },
+      { size: "FULL/DOUBLE",  },
+      { size: "QUEEN",  },
+      { size: "KING",  }
     ]
   },
   {
@@ -101,11 +101,11 @@ const mattresses = [
     description: "Jasmine is designed for sleepers who love plush comfort without losing support. Its Euro Top design, multi-zone pocket coils, cooling gel foams, and moisture-regulating Tencel® fabric create a deeply comfortable, refreshing sleep environment.",
     image: jasmineImage,
     prices: [
-      { size: "TWIN", price: 956 },
-      { size: "TWIN XL", price: 1148 },
-      { size: "FULL/DOUBLE", price: 1148 },
-      { size: "QUEEN", price: 1275 },
-      { size: "KING", price: 1658 }
+      { size: "TWIN",  },
+      { size: "TWIN XL",  },
+      { size: "FULL/DOUBLE",  },
+      { size: "QUEEN",  },
+      { size: "KING",  }
     ]
   },
   {
@@ -114,11 +114,11 @@ const mattresses = [
     description: "Layla delivers a cloud-like sleep experience with a luxurious pillow top and layered comfort foams. Cooling gel materials relieve pressure while multi-zone pocket coils maintain proper alignment and support throughout the night.",
     image: laylaImage,
     prices: [
-      { size: "TWIN", price: 1148 },
-      { size: "TWIN XL", price: 1338 },
-      { size: "FULL/DOUBLE", price: 1338 },
-      { size: "QUEEN", price: 1509 },
-      { size: "KING", price: 1849 }
+      { size: "TWIN",  },
+      { size: "TWIN XL",  },
+      { size: "FULL/DOUBLE",  },
+      { size: "QUEEN",  },
+      { size: "KING",  }
     ]
   },
   {
@@ -127,11 +127,11 @@ const mattresses = [
     description: "Monaco elevates comfort with Granite TruCOOL™ fabric that feels cool to the touch and helps regulate temperature. Foam-encased pocket coils provide stability and edge support, while layered cooling foams create a plush yet supportive sleep.",
     image: monacoImage,
     prices: [
-      { size: "TWIN", price: 1254 },
-      { size: "TWIN XL", price: 1517 },
-      { size: "FULL/DOUBLE", price: 1517 },
-      { size: "QUEEN", price: 1647 },
-      { size: "KING", price: 2108 }
+      { size: "TWIN",  },
+      { size: "TWIN XL",  },
+      { size: "FULL/DOUBLE",  },
+      { size: "QUEEN",  },
+      { size: "KING",  }
     ]
   },
   {
@@ -140,11 +140,11 @@ const mattresses = [
     description: "Nightingale combines ultra-plush comfort with advanced cooling performance. Memory foam infused with EssentialGel™, breathable fabrics, and responsive pocket coils work together to reduce pressure, motion transfer, and heat buildup.",
     image: nightingaleImage,
     prices: [
-      { size: "TWIN", price: 1403 },
-      { size: "TWIN XL", price: 1658 },
-      { size: "FULL/DOUBLE", price: 1658 },
-      { size: "QUEEN", price: 1779 },
-      { size: "KING", price: 2240 }
+      { size: "TWIN",  },
+      { size: "TWIN XL",  },
+      { size: "FULL/DOUBLE",  },
+      { size: "QUEEN",  },
+      { size: "KING",  }
     ]
   },
   {
@@ -153,11 +153,11 @@ const mattresses = [
     description: "Opulence lives up to its name with a lavish blend of cooling fabrics, Serene® foam for enhanced pressure relief, and multi-zone pocket coils. Designed to minimize motion transfer while maintaining support, it delivers a refined, indulgent sleep experience.",
     image: opulenceImage,
     prices: [
-      { size: "TWIN", price: 1445 },
-      { size: "TWIN XL", price: 1781 },
-      { size: "FULL/DOUBLE", price: 1781 },
-      { size: "QUEEN", price: 1911 },
-      { size: "KING", price: 2435 }
+      { size: "TWIN",  },
+      { size: "TWIN XL",  },
+      { size: "FULL/DOUBLE",  },
+      { size: "QUEEN",  },
+      { size: "KING",  }
     ]
   },
   {
@@ -166,11 +166,11 @@ const mattresses = [
     description: "Palatial represents the pinnacle of Aurora Dream luxury. A signature dual-coil system combines the strength of continuous coils with the precision of contour pocket coils. Finished with CopperCOOL™ fabric and premium cooling foams, it offers unmatched comfort, support, and temperature control.",
     image: palatialImage,
     prices: [
-      { size: "TWIN", price: 1913 },
-      { size: "TWIN XL", price: 2308 },
-      { size: "FULL/DOUBLE", price: 2308 },
-      { size: "QUEEN", price: 2438 },
-      { size: "KING", price: 3162 }
+      { size: "TWIN",  },
+      { size: "TWIN XL",  },
+      { size: "FULL/DOUBLE",  },
+      { size: "QUEEN",  },
+      { size: "KING",  }
     ]
   },
 ];
@@ -223,37 +223,42 @@ const mattressProtection = [
   },
 ];
 
-// Price display component
+// Price display component - Updated to show call-to-action
 const PriceDisplay = ({ prices }) => {
   if (!prices || prices.length === 0) return null;
   
-  // Find the Queen price to show as the main price
-  const queenPrice = prices.find(p => p.size === "QUEEN");
-  const mainPrice = queenPrice || prices[0];
-  
   return (
     <div className="mt-4">
-      <div className="flex items-center justify-between mb-2">
-        <span className="text-lg font-semibold text-[#009A9F]">
-          From ${mainPrice.price}
-        </span>
-        <span className="text-sm text-gray-600">{mainPrice.size}</span>
-      </div>
-      <div className="grid grid-cols-3 gap-2">
-        {prices.slice(0, 3).map((priceItem, index) => (
-          <div key={index} className="text-center p-2 bg-[#009A9F]/10 rounded">
-            <div className="text-xs text-gray-600">{priceItem.size}</div>
-            <div className="font-semibold text-[#009A9F]">${priceItem.price}</div>
+      <div className="p-4 bg-gradient-to-r from-[#009A9F]/10 to-[#3A7BF7]/10 rounded-lg border border-[#009A9F]/20">
+        <div className="flex items-center justify-between mb-3">
+          <div>
+            <p className="font-semibold text-[#009A9F]">Personalized Pricing Available</p>
+            <p className="text-sm text-gray-600">Includes free Ottawa delivery & 10-year warranty</p>
           </div>
-        ))}
-      </div>
-      {prices.length > 3 && (
-        <div className="mt-2 text-center">
-          <span className="text-xs text-gray-500">
-            +{prices.length - 3} more sizes
-          </span>
         </div>
-      )}
+        <div className="grid grid-cols-2 gap-3">
+          <a href="tel:+16132900212" className="block">
+            <div className="text-center p-3 bg-[#009A9F] text-white rounded hover:bg-[#009A9F]/90 transition-colors">
+              <div className="font-semibold">📞 Call Now</div>
+              <div className="text-xs">(613) 290-0212</div>
+            </div>
+          </a>
+          <a 
+            href="https://calendly.com/albochi-auroradream/30min?month=2026-01" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <div className="text-center p-3 border border-[#009A9F] text-[#009A9F] rounded hover:bg-[#009A9F]/10 transition-colors">
+              <div className="font-semibold">📅 Book Free</div>
+              <div className="text-xs">Consultation</div>
+            </div>
+          </a>
+        </div>
+        <div className="mt-3 text-center">
+          <p className="text-xs text-gray-500">Available in {prices?.length || 6} sizes</p>
+        </div>
+      </div>
     </div>
   );
 };
