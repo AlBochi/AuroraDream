@@ -1,3 +1,4 @@
+import PopupAd from './components/PopupAd';
 import { Switch, Route } from "wouter";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { queryClient } from "./lib/queryClient";
@@ -55,6 +56,8 @@ function App() {
       <TooltipProvider>
         <Toaster />
         <Router />
+        {/* POPUP AD ADDED HERE - Will appear on all pages */}
+        <PopupAd />
       </TooltipProvider>
     </QueryClientProvider>
   );

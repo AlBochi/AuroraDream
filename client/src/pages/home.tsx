@@ -1,5 +1,5 @@
-import { SeoSchema } from '@/components/SeoSchema';
 import React from 'react';
+import { HomepageFaqSchema } from '@/components/HomepageFaqSchema';
 import AuroraSky from "@/components/AuroraSky";
 import NavbarAurora from "@/components/NavbarAurora";
 import HeroAurora from "@/components/HeroAurora";
@@ -30,8 +30,7 @@ export default function Home() {
         </ThemedSection>
         <ContactAurora />
       </main>
-        <SeoSchema pageType="homepage" />
-        <SeoSchema pageType="homepage" />
+        <HomepageFaqSchema />
       <FooterAurora />
     </div>
   );
