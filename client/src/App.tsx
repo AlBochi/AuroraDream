@@ -6,7 +6,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Home from "@/pages/home";
 import Products from "@/pages/products";
-import ProductDetails from "@/pages/product-details";
+const ProductDetails = lazy(() => import("@/pages/product-details"));
 import DeliveryZone from "@/pages/DeliveryZone";
 import FAQ from "@/pages/faq";
 import NotFound from "@/pages/not-found";
