@@ -1,3 +1,4 @@
+import React from "react";
 import PopupAd from './components/PopupAd';
 import { Switch, Route } from "wouter";
 import { QueryClientProvider } from "@tanstack/react-query";
@@ -6,7 +7,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Home from "@/pages/home";
 import Products from "@/pages/products";
-const ProductDetails = lazy(() => import("@/pages/product-details"));
+const ProductDetails = React.lazy(() => import("@/pages/product-details"));
 import DeliveryZone from "@/pages/DeliveryZone";
 import FAQ from "@/pages/faq";
 import NotFound from "@/pages/not-found";

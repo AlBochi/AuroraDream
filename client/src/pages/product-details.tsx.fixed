@@ -39,11 +39,11 @@ const productData = {
     description: "Carlisle Medium Firm Foam is built for sleepers who want responsive comfort with dependable support. Its eco-friendly, soy-based Bio-Foam resists body impressions and delivers quick response for immediate relaxation without excessive sink. A lofty, multi-needle quilt with super-soft Bio-Foam and smooth silk fabric enhances surface comfort while maintaining a balanced, medium-firm feel. CertiPUR-US® certified foams ensure durability, low emissions, and long-lasting performance.",
     image: carlisleImage,
     prices: [
-      { size: "TWIN", price: "" },
-      { size: "TWIN XL", price: "" },
-      { size: "FULL/DOUBLE", price: "" },
-      { size: "QUEEN", price: "" },
-      { size: "KING", price: "" }
+      { size: "TWIN", price: "Call (613) 290-0212" },
+      { size: "TWIN XL", price: "Call (613) 290-0212" },
+      { size: "FULL/DOUBLE", price: "Call (613) 290-0212" },
+      { size: "QUEEN", price: "Call (613) 290-0212" },
+      { size: "KING", price: "Call (613) 290-0212" }
     ]
   },
   "diana": {
@@ -52,11 +52,11 @@ const productData = {
     description: "Diana is engineered for sleepers who want uncompromising firmness with dependable comfort. Built with a reinforced perimeter and a continuous coil system, it delivers strong, edge-to-edge support that eliminates the roll-off feeling and maintains structural integrity night after night. An added layer of super-soft Bio-Foam enhances comfort without softening the feel, providing subtle pressure relief while preserving a truly firm sleep surface.",
     image: dianaImage,
     prices: [
-      { size: "TWIN", price: "" },
-      { size: "TWIN XL", price: "" },
-      { size: "FULL/DOUBLE", price: "" },
-      { size: "QUEEN", price: "" },
-      { size: "KING", price: "" }
+      { size: "TWIN", price: "Call (613) 290-0212" },
+      { size: "TWIN XL", price: "Call (613) 290-0212" },
+      { size: "FULL/DOUBLE", price: "Call (613) 290-0212" },
+      { size: "QUEEN", price: "Call (613) 290-0212" },
+      { size: "KING", price: "Call (613) 290-0212" }
     ]
   },
   "gemma": {
@@ -65,11 +65,11 @@ const productData = {
     description: "Gemma offers the perfect balance between support and comfort. Full perimeter coil construction ensures stability, creating a polished, breathable, medium-firm sleep surface.",
     image: gemmaImage,
     prices: [
-      { size: "TWIN", price: "" },
-      { size: "TWIN XL", price: "" },
-      { size: "FULL/DOUBLE", price: "" },
-      { size: "QUEEN", price: "" },
-      { size: "KING", price: "" }
+      { size: "TWIN", price: "Call (613) 290-0212" },
+      { size: "TWIN XL", price: "Call (613) 290-0212" },
+      { size: "FULL/DOUBLE", price: "Call (613) 290-0212" },
+      { size: "QUEEN", price: "Call (613) 290-0212" },
+      { size: "KING", price: "Call (613) 290-0212" }
     ]
   },
   "essex": {
@@ -78,11 +78,11 @@ const productData = {
     description: "Essex is an all-foam design crafted for contouring comfort. A high-density soy foam base resists impressions, while convoluted foam enhances airflow and pressure relief. The plush Euro Top, infused with cooling gel Bio-Foam, adds a touch of luxury and softness.",
     image: essexImage,
     prices: [
-      { size: "TWIN", price: "" },
-      { size: "TWIN XL", price: "" },
-      { size: "FULL/DOUBLE", price: "" },
-      { size: "QUEEN", price: "" },
-      { size: "KING", price: "" }
+      { size: "TWIN", price: "Call (613) 290-0212" },
+      { size: "TWIN XL", price: "Call (613) 290-0212" },
+      { size: "FULL/DOUBLE", price: "Call (613) 290-0212" },
+      { size: "QUEEN", price: "Call (613) 290-0212" },
+      { size: "KING", price: "Call (613) 290-0212" }
     ]
   },
   "indigo": {
@@ -91,11 +91,11 @@ const productData = {
     description: "Indigo delivers targeted, intelligent support through multi-zone contour pocket coils and reinforced edge stability. A silky-soft Tencel® cover enhances breathability, while gel-infused quilting and high-density CertiPUR® foams provide long-lasting comfort and pressure relief.",
     image: indigoImage,
     prices: [
-      { size: "TWIN", price: "" },
-      { size: "TWIN XL", price: "" },
-      { size: "FULL/DOUBLE", price: "" },
-      { size: "QUEEN", price: "" },
-      { size: "KING", price: "" }
+      { size: "TWIN", price: "Call (613) 290-0212" },
+      { size: "TWIN XL", price: "Call (613) 290-0212" },
+      { size: "FULL/DOUBLE", price: "Call (613) 290-0212" },
+      { size: "QUEEN", price: "Call (613) 290-0212" },
+      { size: "KING", price: "Call (613) 290-0212" }
     ]
   },
   "jasmine": {
@@ -104,11 +104,11 @@ const productData = {
     description: "Jasmine is designed for sleepers who love plush comfort without losing support. Its Euro Top design, multi-zone pocket coils, cooling gel foams, and moisture-regulating Tencel® fabric create a deeply comfortable, refreshing sleep environment.",
     image: jasmineImage,
     prices: [
-      { size: "TWIN", price: "" },
-      { size: "TWIN XL", price: "" },
-      { size: "FULL/DOUBLE", price: "" },
-      { size: "QUEEN", price: "" },
-      { size: "KING", price: "" }
+      { size: "TWIN", price: "Call (613) 290-0212" },
+      { size: "TWIN XL", price: "Call (613) 290-0212" },
+      { size: "FULL/DOUBLE", price: "Call (613) 290-0212" },
+      { size: "QUEEN", price: "Call (613) 290-0212" },
+      { size: "KING", price: "Call (613) 290-0212" }
     ]
   },
   "layla": {
@@ -117,11 +117,11 @@ const productData = {
     description: "Layla delivers a cloud-like sleep experience with a luxurious pillow top and layered comfort foams. Cooling gel materials relieve pressure while multi-zone pocket coils maintain proper alignment and support throughout the night.",
     image: laylaImage,
     prices: [
-      { size: "TWIN", price: "" },
-      { size: "TWIN XL", price: "" },
-      { size: "FULL/DOUBLE", price: "" },
-      { size: "QUEEN", price: "" },
-      { size: "KING", price: "" }
+      { size: "TWIN", price: "Call (613) 290-0212" },
+      { size: "TWIN XL", price: "Call (613) 290-0212" },
+      { size: "FULL/DOUBLE", price: "Call (613) 290-0212" },
+      { size: "QUEEN", price: "Call (613) 290-0212" },
+      { size: "KING", price: "Call (613) 290-0212" }
     ]
   },
   "monaco": {
@@ -130,11 +130,11 @@ const productData = {
     description: "Monaco elevates comfort with Granite TruCOOL™ fabric that feels cool to the touch and helps regulate temperature. Foam-encased pocket coils provide stability and edge support, while layered cooling foams create a plush yet supportive sleep.",
     image: monacoImage,
     prices: [
-      { size: "TWIN", price: "" },
-      { size: "TWIN XL", price: "" },
-      { size: "FULL/DOUBLE", price: "" },
-      { size: "QUEEN", price: "" },
-      { size: "KING", price: "" }
+      { size: "TWIN", price: "Call (613) 290-0212" },
+      { size: "TWIN XL", price: "Call (613) 290-0212" },
+      { size: "FULL/DOUBLE", price: "Call (613) 290-0212" },
+      { size: "QUEEN", price: "Call (613) 290-0212" },
+      { size: "KING", price: "Call (613) 290-0212" }
     ]
   },
   "nightingale": {
@@ -143,11 +143,11 @@ const productData = {
     description: "Nightingale combines ultra-plush comfort with advanced cooling performance. Memory foam infused with EssentialGel™, breathable fabrics, and responsive pocket coils work together to reduce pressure, motion transfer, and heat buildup.",
     image: nightingaleImage,
     prices: [
-      { size: "TWIN", price: "" },
-      { size: "TWIN XL", price: "" },
-      { size: "FULL/DOUBLE", price: "" },
-      { size: "QUEEN", price: "" },
-      { size: "KING", price: "" }
+      { size: "TWIN", price: "Call (613) 290-0212" },
+      { size: "TWIN XL", price: "Call (613) 290-0212" },
+      { size: "FULL/DOUBLE", price: "Call (613) 290-0212" },
+      { size: "QUEEN", price: "Call (613) 290-0212" },
+      { size: "KING", price: "Call (613) 290-0212" }
     ]
   },
   "opulence": {
@@ -156,11 +156,11 @@ const productData = {
     description: "Opulence lives up to its name with a lavish blend of cooling fabrics, Serene® foam for enhanced pressure relief, and multi-zone pocket coils. Designed to minimize motion transfer while maintaining support, it delivers a refined, indulgent sleep experience.",
     image: opulenceImage,
     prices: [
-      { size: "TWIN", price: "" },
-      { size: "TWIN XL", price: "" },
-      { size: "FULL/DOUBLE", price: "" },
-      { size: "QUEEN", price: "" },
-      { size: "KING", price: "" }
+      { size: "TWIN", price: "Call (613) 290-0212" },
+      { size: "TWIN XL", price: "Call (613) 290-0212" },
+      { size: "FULL/DOUBLE", price: "Call (613) 290-0212" },
+      { size: "QUEEN", price: "Call (613) 290-0212" },
+      { size: "KING", price: "Call (613) 290-0212" }
     ]
   },
   "palatial": {
@@ -169,11 +169,11 @@ const productData = {
     description: "Palatial represents the pinnacle of Aurora Dream luxury. A signature dual-coil system combines the strength of continuous coils with the precision of contour pocket coils. Finished with CopperCOOL™ fabric and premium cooling foams, it offers unmatched comfort, support, and temperature control.",
     image: palatialImage,
     prices: [
-      { size: "TWIN", price: "" },
-      { size: "TWIN XL", price: "" },
-      { size: "FULL/DOUBLE", price: "" },
-      { size: "QUEEN", price: "" },
-      { size: "KING", price: "" }
+      { size: "TWIN", price: "Call (613) 290-0212" },
+      { size: "TWIN XL", price: "Call (613) 290-0212" },
+      { size: "FULL/DOUBLE", price: "Call (613) 290-0212" },
+      { size: "QUEEN", price: "Call (613) 290-0212" },
+      { size: "KING", price: "Call (613) 290-0212" }
     ]
   },
   // Pillows
@@ -183,7 +183,7 @@ const productData = {
     description: "Engineered for hot sleepers, the Cool Ice Pillow features a Tencel® Cool Ice cover that actively draws heat away. Adjustable shredded gel memory foam contours to your head and neck, allowing personalized comfort in any sleep position.",
     image: coolIcePillowImage,
     prices: [
-      { size: "QUEEN", price: "" }
+      { size: "QUEEN", price: "Call (613) 290-0212" }
     ]
   },
   "active-charcoal-pillow": {
@@ -192,7 +192,7 @@ const productData = {
     description: "Infused with charcoal, this pillow neutralizes odors while regulating temperature. Shredded gel memory foam adapts to every sleep style, while breathable Tencel® fabric keeps your pillow feeling fresh and supportive night after night.",
     image: charcoalPillowImage,
     prices: [
-      { size: "QUEEN", price: "" }
+      { size: "QUEEN", price: "Call (613) 290-0212" }
     ]
   },
   "organic-bamboo-pillow": {
@@ -201,7 +201,7 @@ const productData = {
     description: "Made with a 100% organic bamboo cover and fill, this pillow delivers naturally cool, breathable, and hypoallergenic comfort. Its adjustable design lets you customize firmness while supporting sustainable, eco-conscious living.",
     image: bambooPillowImage,
     prices: [
-      { size: "QUEEN", price: "" }
+      { size: "QUEEN", price: "Call (613) 290-0212" }
     ]
   },
   "hotel-comfort-tencel-pillow": {
@@ -210,7 +210,7 @@ const productData = {
     description: "Inspired by five-star hotels, this pillow pairs a smooth Tencel® cover with plush poly fibers for an inviting, breathable feel. Moisture-wicking and hypoallergenic properties ensure cool, comfortable sleep every night.",
     image: hotelPillowImage,
     prices: [
-      { size: "QUEEN", price: "" }
+      { size: "QUEEN", price: "Call (613) 290-0212" }
     ]
   },
   // Protectors
@@ -220,11 +220,11 @@ const productData = {
     description: "Soft cotton terry fabric provides plush comfort while a breathable waterproof barrier protects against spills, allergens, and everyday wear. Quiet, secure, and designed to fit deep mattresses without shifting.",
     image: terryProtectorImage,
     prices: [
-      { size: "TWIN", price: "" },
-      { size: "TWIN XL", price: "" },
-      { size: "FULL/DOUBLE", price: "" },
-      { size: "QUEEN", price: "" },
-      { size: "KING", price: "" }
+      { size: "TWIN", price: "Call (613) 290-0212" },
+      { size: "TWIN XL", price: "Call (613) 290-0212" },
+      { size: "FULL/DOUBLE", price: "Call (613) 290-0212" },
+      { size: "QUEEN", price: "Call (613) 290-0212" },
+      { size: "KING", price: "Call (613) 290-0212" }
     ]
   },
   "cool-ice-mattress-protector": {
@@ -233,11 +233,11 @@ const productData = {
     description: "Advanced cooling fabric actively pulls heat away from the body, keeping sleepers cool and dry. Five-sided waterproof protection, NO-MITE™ certification, and a non-slip fit ensure clean, uninterrupted sleep.",
     image: coolIceProtectorImage,
     prices: [
-      { size: "TWIN", price: "" },
-      { size: "TWIN XL", price: "" },
-      { size: "FULL/DOUBLE", price: "" },
-      { size: "QUEEN", price: "" },
-      { size: "KING", price: "" }
+      { size: "TWIN", price: "Call (613) 290-0212" },
+      { size: "TWIN XL", price: "Call (613) 290-0212" },
+      { size: "FULL/DOUBLE", price: "Call (613) 290-0212" },
+      { size: "QUEEN", price: "Call (613) 290-0212" },
+      { size: "KING", price: "Call (613) 290-0212" }
     ]
   },
   "bed-bug-mattress-encasement": {
@@ -246,11 +246,11 @@ const productData = {
     description: "This full encasement offers six-sided, bite-proof protection against bed bugs, dust mites, allergens, and spills. Breathable, silent, and securely sealed with a zipper and Velcro lock for total peace of mind.",
     image: encasementImage,
     prices: [
-      { size: "TWIN", price: "" },
-      { size: "TWIN XL", price: "" },
-      { size: "FULL/DOUBLE", price: "" },
-      { size: "QUEEN", price: "" },
-      { size: "KING", price: "" }
+      { size: "TWIN", price: "Call (613) 290-0212" },
+      { size: "TWIN XL", price: "Call (613) 290-0212" },
+      { size: "FULL/DOUBLE", price: "Call (613) 290-0212" },
+      { size: "QUEEN", price: "Call (613) 290-0212" },
+      { size: "KING", price: "Call (613) 290-0212" }
     ]
   },
 };
@@ -262,7 +262,7 @@ function SizeSelector({ prices, selectedSize, onSizeSelect }) {
   return (
     <div className="relative mb-8">
       <label className="block text-[#F3E8D0] mb-3 text-lg font-medium">
-        Select Your Size
+        Select Size (Call for Pricing)
       </label>
       <div className="relative">
         <button
@@ -272,7 +272,7 @@ function SizeSelector({ prices, selectedSize, onSizeSelect }) {
         >
           <div className="flex items-center">
             <span className="font-medium">{selectedSize?.size}</span>
-            <span className="ml-4 text-[#3A7BF7]">Select</span>
+            <span className="ml-4 text-[#3A7BF7]">${selectedSize?.price}</span>
           </div>
           <ChevronDown className={`w-5 h-5 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
         </button>
@@ -297,7 +297,7 @@ function SizeSelector({ prices, selectedSize, onSizeSelect }) {
                     <Check className="w-4 h-4 ml-3 text-[#3A7BF7]" />
                   )}
                 </div>
-                <span className="text-[#3A7BF7] font-semibold">Available</span>
+                <span className="text-[#3A7BF7] font-semibold">{priceItem.price}</span>
               </button>
             ))}
           </div>
@@ -448,40 +448,21 @@ export default function ProductDetails() {
                     onSizeSelect={setSelectedSize}
                   />
                   
-                  <div className="mb-8 space-y-4">
-  <div className="p-6 bg-gradient-to-br from-blue-900/30 to-blue-800/20 rounded-xl border border-blue-500/30">
-    <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-      <div className="text-center md:text-left">
-        <h3 className="text-xl font-semibold text-white mb-2">Personalized Pricing Available</h3>
-        <p className="text-blue-100">
-          Includes free Ottawa delivery & 10-year warranty
-        </p>
-      </div>
-      <div className="flex flex-col sm:flex-row gap-4">
-        <a 
-          href="tel:6132900212"
-          className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors shadow-lg min-w-[180px]"
-        >
-          📞 Call Now
-        </a>
-        <a 
-          href="https://calendly.com/albochi-auroradream/30min"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold rounded-lg transition-all shadow-lg min-w-[180px]"
-        >
-          📅 Book Consultation
-        </a>
-      </div>
-    </div>
-  </div>
-  
-  <div className="text-center">
-    <p className="text-blue-300 text-sm">
-      Available in 5 sizes • Free setup included
-    </p>
-  </div>
-</div>
+                  <div className="mb-6 p-6 bg-[#0A3A57]/50 rounded-lg border border-[#3A7BF7]/30">
+                    <div className="flex justify-between items-center mb-4">
+                      <span className="text-[#F3E8D0] text-lg">
+                        {product.name.includes("PILLOW") 
+                          ? `${selectedSize?.size} Pillow`
+                          : product.name.includes("PROTECTOR") || product.name.includes("ENCASEMENT")
+                            ? `${selectedSize?.size} ${product.name.includes("PROTECTOR") ? "Protector" : "Encasement"}`
+                            : `${selectedSize?.size} Mattress`}
+                      </span>
+                      <span className="text-2xl font-bold text-[#3A7BF7]">${selectedSize?.price}</span>
+                    </div>
+                    <p className="text-[#F3E8D0]/60 text-sm">
+                      Call for pricing details. Financing options available.
+                    </p>
+                  </div>
                 </div>
               )}
               
@@ -521,7 +502,7 @@ export default function ProductDetails() {
                     }`}
                   >
                     <div className="text-sm text-[#F3E8D0]/80 mb-2">{priceItem.size}</div>
-                    <div className="text-xl font-bold text-[#3A7BF7]">Available</div>
+                    <div className="text-xl font-bold text-[#3A7BF7]">{priceItem.price}</div>
                     {selectedSize?.size === priceItem.size && (
                       <div className="mt-2 text-xs text-[#3A7BF7] flex items-center justify-center">
                         <Check className="w-3 h-3 mr-1" /> Selected
