@@ -223,62 +223,7 @@ const mattressProtection = [
   },
 ];
 
-// Price display component - Updated to show call-to-action
-const PriceDisplay = ({ prices }) => {
-  if (!prices || prices.length === 0) return null;
-  
-  return (
-    <div className="mt-4">
-      <div className="p-4 bg-gradient-to-r from-[#009A9F]/10 to-[#3A7BF7]/10 rounded-lg border border-[#009A9F]/20">
-        <div className="flex items-center justify-between mb-3">
-          <div>
-            <p className="font-semibold text-[#009A9F]">Personalized Pricing Available</p>
-            <p className="text-sm text-gray-600">Includes free Ottawa delivery & 10-year warranty</p>
-          </div>
-        </div>
-        <div className="grid grid-cols-2 gap-3">
-          <div 
-  onClick={() => {
-    const phone = "(613) 290-0212";
-    navigator.clipboard.writeText(phone);
-    
-    // Visual feedback
-    const div = event.currentTarget;
-    const originalHTML = div.innerHTML;
-    div.innerHTML = '<div className="font-semibold">✓ Copied!</div><div className="text-xs">' + phone + '</div>';
-    div.classList.add("bg-green-600");
-    div.classList.remove("bg-[#009A9F]");
-    
-    setTimeout(() => {
-      div.innerHTML = originalHTML;
-      div.classList.remove("bg-green-600");
-      div.classList.add("bg-[#009A9F]");
-    }, 2000);
-  }}
-  className="text-center p-3 bg-[#009A9F] text-white rounded hover:bg-[#009A9F]/90 transition-colors cursor-pointer block"
->
-  <div className="font-semibold">📞 Call Now</div>
-  <div className="text-xs">(613) 290-0212</div>
-</div>
-          <a 
-            href="https://calendly.com/albochi-auroradream/30min?month=2026-01" 
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block"
-          >
-            <div className="text-center p-3 border border-[#009A9F] text-[#009A9F] rounded hover:bg-[#009A9F]/10 transition-colors">
-              <div className="font-semibold">📅 Book Free</div>
-              <div className="text-xs">Consultation</div>
-            </div>
-          </a>
-        </div>
-        <div className="mt-3 text-center">
-          <p className="text-xs text-gray-500">Available in {prices?.length || 6} sizes</p>
-        </div>
-      </div>
-    </div>
-  );
-};
+
 
 export default function ProductsPage() {
   return (
@@ -329,7 +274,7 @@ export default function ProductsPage() {
                         {mattress.description}
                       </p>
                       {/* ADDED: Price display */}
-                      <PriceDisplay prices={mattress.prices} />
+                      
                     </div>
                   </Card>
                 </Link>
