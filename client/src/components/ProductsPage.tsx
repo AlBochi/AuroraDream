@@ -237,12 +237,29 @@ const PriceDisplay = ({ prices }) => {
           </div>
         </div>
         <div className="grid grid-cols-2 gap-3">
-          <a href="tel:+16132900212" className="block">
-            <div className="text-center p-3 bg-[#009A9F] text-white rounded hover:bg-[#009A9F]/90 transition-colors">
-              <div className="font-semibold">📞 Call Now</div>
-              <div className="text-xs">(613) 290-0212</div>
-            </div>
-          </a>
+          <div 
+  onClick={() => {
+    const phone = "(613) 290-0212";
+    navigator.clipboard.writeText(phone);
+    
+    // Visual feedback
+    const div = event.currentTarget;
+    const originalHTML = div.innerHTML;
+    div.innerHTML = '<div className="font-semibold">✓ Copied!</div><div className="text-xs">' + phone + '</div>';
+    div.classList.add("bg-green-600");
+    div.classList.remove("bg-[#009A9F]");
+    
+    setTimeout(() => {
+      div.innerHTML = originalHTML;
+      div.classList.remove("bg-green-600");
+      div.classList.add("bg-[#009A9F]");
+    }, 2000);
+  }}
+  className="text-center p-3 bg-[#009A9F] text-white rounded hover:bg-[#009A9F]/90 transition-colors cursor-pointer block"
+>
+  <div className="font-semibold">📞 Call Now</div>
+  <div className="text-xs">(613) 290-0212</div>
+</div>
           <a 
             href="https://calendly.com/albochi-auroradream/30min?month=2026-01" 
             target="_blank"

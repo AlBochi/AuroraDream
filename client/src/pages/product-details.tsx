@@ -1,4 +1,3 @@
-import React from "react";
 import { useRoute } from "wouter";
 import { useState } from "react";
 import AuroraSky from "@/components/AuroraSky";
@@ -21,15 +20,15 @@ const opulenceImage = "/images/OpulenceFinal2.webp";
 const palatialImage = "/images/PalatialFinal2.webp";
 
 // Pillow images (keep as .jpg for now)
-import coolIcePillowImage from "/assets/CoolIcePillow_NEW_OPTIMIZED.jpg";
-import charcoalPillowImage from "/assets/ActiveCharcoalPillow_NEW_OPTIMIZED.jpg";
-import bambooPillowImage from "/assets/BambooOrganicPillow_NEW_OPTIMIZED.jpg";
-import hotelPillowImage from "/assets/HotelComfortPillow_OPTIMIZED.jpg";
+import coolIcePillowImage from "@assets/CoolIcePillow_NEW_OPTIMIZED.jpg";
+import charcoalPillowImage from "@assets/ActiveCharcoalPillow_NEW_OPTIMIZED.jpg";
+import bambooPillowImage from "@assets/BambooOrganicPillow_NEW_OPTIMIZED.jpg";
+import hotelPillowImage from "@assets/HotelComfortPillow_OPTIMIZED.jpg";
 
 // Protector images
-import terryProtectorImage from "/assets/TerryMattressProtector_OPTIMIZED.jpg";
-import coolIceProtectorImage from "/assets/PremiumMattressProtector_OPTIMIZED.jpg";
-import encasementImage from "/assets/MattressEncasementSupreme_OPTIMIZED.jpg";
+import terryProtectorImage from "@assets/TerryMattressProtector_OPTIMIZED.jpg";
+import coolIceProtectorImage from "@assets/PremiumMattressProtector_OPTIMIZED.jpg";
+import encasementImage from "@assets/MattressEncasementSupreme_OPTIMIZED.jpg";
 
 // All product data - UPDATED to match ProductsPage.tsx
 const productData = {
@@ -459,12 +458,39 @@ export default function ProductDetails() {
         </p>
       </div>
       <div className="flex flex-col sm:flex-row gap-4">
-        <a 
-          href="tel:6132900212"
-          className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors shadow-lg min-w-[180px]"
-        >
-          📞 Call Now
-        </a>
+        <button
+  onClick={(e) => {
+    e.preventDefault();
+    const button = e.currentTarget;
+    const phoneNumber = "(613) 290-0212";
+    
+    if (!button.classList.contains("revealed")) {
+      // First click - reveal phone
+      button.innerHTML = "📞 " + phoneNumber;
+      button.classList.add("revealed", "bg-green-600");
+      button.classList.remove("bg-blue-600", "hover:bg-blue-700");
+      button.classList.add("hover:bg-green-700");
+      
+      // Copy to clipboard
+      navigator.clipboard.writeText(phoneNumber);
+      
+      // Revert after 7 seconds
+      setTimeout(() => {
+        if (button.classList.contains("revealed")) {
+          button.innerHTML = "📞 Call Now";
+          button.classList.remove("revealed", "bg-green-600", "hover:bg-green-700");
+          button.classList.add("bg-blue-600", "hover:bg-blue-700");
+        }
+      }, 7000);
+    } else {
+      // Second click - call
+      window.location.href = "tel:6132900212";
+    }
+  }}
+  className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all duration-300 shadow-lg min-w-[180px] cursor-pointer"
+>
+  📞 Call Now
+</button>
         <a 
           href="https://calendly.com/albochi-auroradream/30min"
           target="_blank"
