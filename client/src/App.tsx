@@ -7,7 +7,8 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Home from "@/pages/home";
 import Products from "@/pages/products";
-const ProductDetails = React.lazy(() => import("@/pages/product-details"));
+// FIXED: Direct import instead of React.lazy
+import ProductDetails from "@/pages/product-details";
 import DeliveryZone from "@/pages/DeliveryZone";
 import FAQ from "@/pages/faq";
 import NotFound from "@/pages/not-found";
@@ -37,16 +38,16 @@ function Router() {
       <Route path="/barrhaven-sleep-solutions" component={BarrhavenPage} />
       <Route path="/nepean-mattress-store" component={NepeanPage} />
       <Route path="/orleans-bed-shop" component={OrleansPage} />
-      <Route path="/centretown-mattress-showroom" component={CentretownPage} />
-      <Route path="/services/mattress-disposal-ottawa" component={MattressDisposalPage} />
-      <Route path="/neighborhoods/hull-matelas" component={HullMatelasPage} />
-      <Route path="/neighborhoods/westboro-mattress" component={WestboroMattressPage} />
-      <Route path="/neighborhoods/orleans-mattress" component={OrleansMattressPage} />
-      <Route path="/neighborhoods/stittsville-mattress" component={StittsvilleMattressPage} />
-      <Route path="/neighborhoods/gatineau-matelas" component={GatineauMatelasPage} />
-      <Route path="/neighborhoods/barrhaven-mattress" component={BarrhavenMattressPage} />
-      <Route path="/neighborhoods/kanata-mattress" component={KanataMattressPage} />
-      <Route component={NotFound} />
+      <Route path="/kanata-mattress-delivery-locations" component={KanataMattressPage} />
+      <Route path="/barrhaven-mattress-delivery" component={BarrhavenMattressPage} />
+      <Route path="/gatineau-matelas-livraison" component={GatineauMatelasPage} />
+      <Route path="/stittsville-mattress-delivery" component={StittsvilleMattressPage} />
+      <Route path="/orleans-mattress-delivery" component={OrleansMattressPage} />
+      <Route path="/westboro-mattress-store" component={WestboroMattressPage} />
+      <Route path="/hull-matelas-livraison" component={HullMatelasPage} />
+      <Route path="/ottawa-mattress-disposal" component={MattressDisposalPage} />
+      <Route path="/centretown-mattress-delivery" component={CentretownPage} />
+      <Route><NotFound /></Route>
     </Switch>
   );
 }

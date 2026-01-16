@@ -1,3 +1,4 @@
+import React from "react";
 import { useRoute } from "wouter";
 import { useState } from "react";
 import AuroraSky from "@/components/AuroraSky";
@@ -20,15 +21,15 @@ const opulenceImage = "/images/OpulenceFinal2.webp";
 const palatialImage = "/images/PalatialFinal2.webp";
 
 // Pillow images (keep as .jpg for now)
-import coolIcePillowImage from "@assets/CoolIcePillow_NEW_OPTIMIZED.jpg";
-import charcoalPillowImage from "@assets/ActiveCharcoalPillow_NEW_OPTIMIZED.jpg";
-import bambooPillowImage from "@assets/BambooOrganicPillow_NEW_OPTIMIZED.jpg";
-import hotelPillowImage from "@assets/HotelComfortPillow_OPTIMIZED.jpg";
+import coolIcePillowImage from "/assets/CoolIcePillow_NEW_OPTIMIZED.jpg";
+import charcoalPillowImage from "/assets/ActiveCharcoalPillow_NEW_OPTIMIZED.jpg";
+import bambooPillowImage from "/assets/BambooOrganicPillow_NEW_OPTIMIZED.jpg";
+import hotelPillowImage from "/assets/HotelComfortPillow_OPTIMIZED.jpg";
 
 // Protector images
-import terryProtectorImage from "@assets/TerryMattressProtector_OPTIMIZED.jpg";
-import coolIceProtectorImage from "@assets/PremiumMattressProtector_OPTIMIZED.jpg";
-import encasementImage from "@assets/MattressEncasementSupreme_OPTIMIZED.jpg";
+import terryProtectorImage from "/assets/TerryMattressProtector_OPTIMIZED.jpg";
+import coolIceProtectorImage from "/assets/PremiumMattressProtector_OPTIMIZED.jpg";
+import encasementImage from "/assets/MattressEncasementSupreme_OPTIMIZED.jpg";
 
 // All product data - UPDATED to match ProductsPage.tsx
 const productData = {
